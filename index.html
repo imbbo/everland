@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,14 @@
     <title>Document</title>
 
     <!-- 파비콘 넣기  파일은 있으니 넣기-->
-    <link rel="icon" href="./"> 
+    <link rel="icon" href="./">
     <!-- reset css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
     <!-- custom css -->
     <link rel="stylesheet" href="./css/main.css">
+
 </head>
+
 <body>
     <!-- section.main-bay -->
     <section class="main-bay">
@@ -24,31 +27,34 @@
         <!-- 메인 이미지와 안내 텍스트 이미지 -->
         <ul class="main-img-bay">
             <li>
-            <a href="#" class="long-img-bay"><img src="./img/caribbean bay main img.jpg" alt="케리비안 베이 이미지"></a>
-            <a href="#" class="text-img-bay"><img src="./img/caribbean bay main img.png" alt="안내문구"></a>
-            </li>   
-        </ul>     
+                <a href="#" class="long-img-bay"><img src="./img/caribbean bay main img.jpg" alt="케리비안 베이 이미지"></a>
+                <a href="#" class="text-img-bay"><img src="./img/caribbean bay main img.png" alt="안내문구"></a>
+                <a href="#" class="stop-bay">∥</a>
+            </li>
+        </ul>
     </section>
 
     <!-- section.information-bay -->
-    <section class="inf">
-        <h3>Information</h3>
-        <div class="now"> 지금 바로 생생한 현장 소식</div>
+    <section class="inf-bay">
+        <h3 class="main-inf-bay">Information</h3>
+        <div class="now-bay"> 지금 바로 생생한 현장 소식</div>
         <!-- first block -->
         <ul class="news-bay">
-            <h3>NEWS & NOTICE</h3>
-            <li><span>새로운 소식들</span></li>
-            <li><a href="#">케리비안 베이 정기 휴장 안내</a></li>
-            <li><a href="#">23년 시즌 캘린더 안내</a></li>
-            <li><a href="#">위치 기반 서비스 종료 안내</a></li>
-            <li><a href="#">[공지] 방수 마스크 안내</a></li>
-            <li><a href="#">내 카드 제휴/할인 조회 서비스 오픈!</a></li>
-            <li><a href="#"><img src="./img/caribbean bay water check.jpg" alt="수질확인"></a></li>
+            <h3>NEWS & NOTICE</h3> <br>
+            <div>새로운 소식들</div> <br>
+            <div class="fBox-bay">
+                <li><a href="#">케리비안 베이 정기 휴장 안내</a></li>
+                <li><a href="#">23년 시즌 캘린더 안내</a></li>
+                <li><a href="#">위치 기반 서비스 종료 안내</a></li>
+                <li><a href="#">[공지] 방수 마스크 안내</a></li>
+                <li><a href="#">내 카드 제휴/할인 조회 서비스 오픈!</a></li>
+            </div>
+            <li><a href="#" class="water-bay"><img src="./img/caribbean bay water check.jpg" alt="수질확인"></a></li>
         </ul>
         <!-- sec block -->
         <ul class="today-bay">
-            <h3>TODAY</h3>
-            <li><span>오늘의 운영시간</span></li>
+            <h3>TODAY</h3> 
+            <li><span class="playTime-bay">오늘의 운영시간</span></li>
             <li>03월 28일(화)</li>
             <li>오늘의 운휴 안내</li>
             <li>라꼬스타,폴바셋,하버 마스터
@@ -65,11 +71,12 @@
             <li><a href="#">발레파킹</a></li>
             <li><a href="#"> 빌리지</a></li>
             <li><a href="#">실내비치체어</a></li>
-            <li><a href="#"></a><span class="home">"우리집에서 에버랜드까지"</span><span>대중교통º자가용</span><span>이용방법</span></li>
+            <div><a href="#"></a><span class="home">"우리집에서 에버랜드까지"</span><span>대중교통º자가용</span><span>이용방법</span></div>
         </ul>
 
     </section>
 
 
 </body>
+
 </html>
