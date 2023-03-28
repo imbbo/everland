@@ -1,6 +1,8 @@
 /* @import url('https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css'); */
 section.main-bay {
-    width: 100%;
+    min-width: 1000px;
+    background: red;
+    margin-bottom: 70px;
 }
 section.main-bay a {
     text-decoration: none;
@@ -44,6 +46,8 @@ section.inf-bay {
    width: 1000px;
    /* background: skyblue; */
    margin: 0 auto;
+   position: relative;
+   
    
 }
 section.inf-bay a {
@@ -93,9 +97,9 @@ section.inf-bay .news-bay {
     border: solid rgba(196, 192, 192, 0.5);
     box-sizing: border-box;
     width: 325px;
-    padding: 35px 25px 30px;
+    padding: 35px 20px 30px;
     height: 500px;
-    margin-right: 1%;
+    margin-right: 9px;
     border-top: 2px solid blue;
     border-width: 2px 1px 2px; 
 } 
@@ -125,17 +129,18 @@ section.inf-bay .today-bay {
     border: solid rgba(196, 192, 192, 0.5);
     box-sizing: border-box;
     width: 325px;
-    padding: 35px 25px 30px;
+    padding: 35px 20px 30px;
     height: 500px;
-    margin-right: 1%;
+    margin-right: 9px;
     border-top: 2px solid blue;
-    border-width: 1px 1px 2px;
-    
+    border-width: 2px 1px 2px;
+    text-align: center;
     
 }
 section.inf-bay .today-bay h3 {
     font-size: 28px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 
@@ -144,15 +149,19 @@ section.inf-bay .today-bay h3 {
 
 
 /* 세번째 블록 */
-section.inf-bay .smart-bay {
+section.inf-bay .allSmart-bay {
     
-    /* float: left; */
-    border: solid rgba(196, 192, 192, 0.5);
+    float: left;  
+}
+section.inf-bay .allSmart-bay .smart-bay {
     box-sizing: border-box;
     width: 325px;
-    padding: 35px 25px 30px;
-    height: 500px;
-    margin-right: 1%;
-    border-top: 2px solid blue;
+    height: 378px;
+    border: solid #e6e6e6;
     border-width: 1px 1px 2px;
+    
 }
+
+
+
+
