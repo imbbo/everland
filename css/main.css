@@ -1,8 +1,9 @@
 /* @import url('https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css'); */
 section.main-bay {
     min-width: 1000px;
-    background: red;
+    /* background: red; */
     margin-bottom: 70px;
+    letter-spacing: -1;
 }
 section.main-bay a {
     text-decoration: none;
@@ -90,6 +91,13 @@ section.inf-bay .news-bay .fBox-bay li {
     
     
 }
+section.inf-bay .inner-bay {
+    width: 1000px;
+    margin: 0 auto;
+    /* background: greenyellow; */
+    /* position: absolute; */
+    
+}
 
 /* 첫번쨰 블록 */
 section.inf-bay .news-bay {
@@ -106,7 +114,7 @@ section.inf-bay .news-bay {
 section.inf-bay .news-bay h3 {
     font-size: 28px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-weight: 900;
 }
 section.inf-bay .news-bay div {
@@ -138,10 +146,52 @@ section.inf-bay .today-bay {
     
 }
 section.inf-bay .today-bay h3 {
+    position: relative;
+    margin-bottom: 48px;
+    /* background: beige; */
+}
+section.inf-bay .today-bay h3 strong {
+    
     font-size: 28px;
     text-align: center;
-    margin-bottom: 10px;
+    /* margin-bottom: px; */
+    font-weight: 900;
+    /* background: skyblue; */
 }
+section.inf-bay .today-bay h3 p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    
+}
+section.inf-bay .today-bay .fir-bay{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    border-top: 1px solid black;
+}
+section.inf-bay .today-bay .sec-bay {
+    color: blue;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 550;
+}
+section.inf-bay .today-bay .thi-bay {
+    font-size: 13px;
+    font-weight: 500px;
+    margin-bottom: 100px;
+}
+section.inf-bay .today-bay .use-bay {
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    color: blue;
+}
+
 
 
 
@@ -149,19 +199,121 @@ section.inf-bay .today-bay h3 {
 
 
 /* 세번째 블록 */
-section.inf-bay .allSmart-bay {
-    
-    float: left;  
-}
+/* section.inf-bay .allSmart-bay { 
+      
+} */
 section.inf-bay .allSmart-bay .smart-bay {
+    float: left;
     box-sizing: border-box;
     width: 325px;
     height: 378px;
     border: solid #e6e6e6;
     border-width: 1px 1px 2px;
+    /* background: red; */
+}
+section.inf-bay .allSmart-bay .smart-bay h3 {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 35px 5px 0 0;
+    height: 129px;
+    background: rgb(28, 85, 248);
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+section.inf-bay .allSmart-bay .smart-bay h3 strong {
+    font-size: 30px;
+    font-weight: bold;
+}
+section.inf-bay .allSmart-bay .smart-bay h3 p {
+    margin-top: 5px;
+    font-size: 18px;
+}
+section.inf-bay .allSmart-bay .smart-bay h3 img {
+    position: absolute;
+    top: -20px;
+    left: 240px;
+}
+/*  */
+/* section.inf-bay .allSmart-bay .smart-bay li {
+    display: flex;
+    
+    
+} */
+
+/*  */
+
+/* one */
+section.inf-bay .allSmart-bay .smart-bay .one-bay {
+    /* background: yellowgreen; */
+    border: 1px solid gray;
+    width: 50%;
+    height: 82px;
+    float: left;
+    
+    
     
 }
 
+/* section.inf-bay .allSmart-bay .smart-bay .one-bay a {
+    background: red;
+} */
 
+/* two */
+section.inf-bay .allSmart-bay .smart-bay .two-bay {
+    border: 1px solid gray;
+    width: 48%;
+    height: 82px;
+    float: right;
+}
 
+/* thr */
+section.inf-bay .allSmart-bay .smart-bay .thr-bay {
+    border: 1px solid gray;
+    width: 50%;
+    height: 82px;
+    float: left;
+}
 
+/* fou */
+section.inf-bay .allSmart-bay .smart-bay .fou-bay {
+    border: 1px solid gray;
+    width: 48%;
+    height: 82px;
+    float: right;
+}
+
+/* fiv */
+section.inf-bay .allSmart-bay .smart-bay .fiv-bay {
+    border: 1px solid gray;
+    width: 50%;
+    height: 82px;
+}
+
+/* bus */
+
+section.inf-bay .allSmart-bay .bus-bay {
+    /* background: red; */
+      float: left;
+      box-sizing: border-box;
+      margin: 10px 0 0;
+      padding: 0 20px;
+      width: 325px;
+      height: 112px;
+      border: solid #e6e6e6;
+      border-width: 1px 1px 2px;
+      background-color: #fff; 
+      position: relative; 
+  }
+
+  section.inf-bay .allSmart-bay .bus-bay p {
+    float: right;
+    text-align: center;
+    
+  }
+  section.inf-bay .allSmart-bay .bus-bay a img {
+    /* border: 3px solid red; */
+    float: left;
+    position: absolute;
+    top: 20px;
+  }
