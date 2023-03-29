@@ -1,7 +1,7 @@
 /* @import url('https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css'); */
 section.main-bay {
-    min-width: 1000px;
-    /* background: red; */
+    width: 200%;
+    background: red;
     margin-bottom: 70px;
     letter-spacing: -1;
 }
@@ -13,6 +13,9 @@ section.main-bay .main-img-bay .long-img-bay {
     width: 100%;
     z-index: 1;
     position: relative;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
     /* cursor: pointer; */
 }
 section.main-bay .main-img-bay .text-img-bay {
@@ -66,9 +69,18 @@ section.inf-bay .now-bay {
     margin-top: 20px;
     margin-bottom: 40px;
 }
-/* section.inf-bay .news-bay .water-bay {
-    display: flex;
-    top: -20px; */
+section.inf-bay .inner-bay {
+    position: relative;
+}
+section.inf-bay .news-bay .water-bay {
+    box-sizing: border-box;
+    position: absolute;
+    top: 388px;
+    left: 1px;
+
+} 
+
+
 
 /* section.inf-bay ul {
     display: flex;
@@ -94,8 +106,9 @@ section.inf-bay .news-bay .fBox-bay li {
 section.inf-bay .inner-bay {
     width: 1000px;
     margin: 0 auto;
-    /* background: greenyellow; */
+    /* background: red; */
     /* position: absolute; */
+    
     
 }
 
@@ -123,7 +136,7 @@ section.inf-bay .news-bay div {
     font-weight: 300;
     /* color: aqua; */
     /* border-bottom: 2px solid gray; */
-    margin-bottom: 30px;
+    margin-bottom: 16px;
 }
 section.inf-bay .news-bay li {
     padding: 16px 10px;
@@ -147,8 +160,8 @@ section.inf-bay .today-bay {
 }
 section.inf-bay .today-bay h3 {
     position: relative;
-    margin-bottom: 48px;
-    /* background: beige; */
+    margin-bottom: 33px;
+    /* background: beige; &&&&&&&&&&&&&&&&&&&&&&&*/
 }
 section.inf-bay .today-bay h3 strong {
     
@@ -215,7 +228,7 @@ section.inf-bay .allSmart-bay .smart-bay h3 {
     box-sizing: border-box;
     margin: 0;
     padding: 35px 5px 0 0;
-    height: 129px;
+    height: 136px;
     background: rgb(28, 85, 248);
     position: relative;
     color: #fff;
@@ -231,7 +244,7 @@ section.inf-bay .allSmart-bay .smart-bay h3 p {
 }
 section.inf-bay .allSmart-bay .smart-bay h3 img {
     position: absolute;
-    top: -20px;
+    top: -13px;
     left: 240px;
 }
 /*  */
@@ -307,13 +320,33 @@ section.inf-bay .allSmart-bay .bus-bay {
   }
 
   section.inf-bay .allSmart-bay .bus-bay p {
-    float: right;
+    /* float: right;  이따 다시 확인!!!!*/
     text-align: center;
+    line-height: 1.6;
+    padding: 0 0 0 50px;
+   
+   
     
   }
   section.inf-bay .allSmart-bay .bus-bay a img {
     /* border: 3px solid red; */
     float: left;
     position: absolute;
-    top: 20px;
+    top: 23px;
+    
   }
+section.inf-bay .allSmart-bay .bus-bay a .myHome-bay {
+    margin-top: 40px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+section.inf-bay .allSmart-bay .bus-bay a .myCar-bay {
+    font-size: 12px;
+}
+
+section.inf-bay .allSmart-bay .bus-bay a span {
+    color: purple;
+    font-weight: 500;
+    font-size: 14px;
+}
