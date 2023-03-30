@@ -1,16 +1,20 @@
 /* @import url('https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css'); */
 section.main-bay {
-    width: 200%;
-    background: red;
+    width: 100%;
+
+    /* background: red;  */
     margin-bottom: 70px;
     letter-spacing: -1;
 }
+
 section.main-bay a {
     text-decoration: none;
 }
+
 /* 메인 이미지 스타일 */
-section.main-bay .main-img-bay .long-img-bay {
+section.main-bay .long-img-bay img {
     width: 100%;
+    height: 550px;
     z-index: 1;
     position: relative;
     /* background-repeat: no-repeat;
@@ -18,22 +22,25 @@ section.main-bay .main-img-bay .long-img-bay {
     background-position: center; */
     /* cursor: pointer; */
 }
+
 section.main-bay .main-img-bay .text-img-bay {
     /* display: flex; */
     /* background-color: aqua; */
     z-index: 2;
     position: absolute;
-    top: -5px;
+    top: -2%;
     left: 20%;
+    /* transform: translate(-50%,-50%); */
 }
+
 section.main-bay .main-img-bay .stop-bay {
-    padding: 1px 3px;
-    border: 1px solid orange;
-    border-radius: 100px;
+
+
     z-index: 3;
     position: absolute;
     left: 50%;
     color: red;
+    top: 520px;
 }
 
 /* section.inf-bay .main-img-bay .but-bay {
@@ -46,39 +53,45 @@ section.main-bay .main-img-bay .stop-bay {
 
 /* section-information style */
 section.inf-bay {
-   padding: 60px 0 70px;
-   width: 1000px;
-   /* background: skyblue; */
-   margin: 0 auto;
-   position: relative;
-   
-   
+    padding: 60px 0 180px;
+    width: 1000px;
+    /* background: skyblue; */
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+
+
 }
+
 section.inf-bay a {
     text-decoration: none;
     color: black;
 }
+
 section.inf-bay .main-inf-bay {
     font-size: 40px;
     text-align: center;
     font-weight: bold;
 }
+
 section.inf-bay .now-bay {
     font-size: 20px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 40px;
 }
+
 section.inf-bay .inner-bay {
     position: relative;
 }
+
 section.inf-bay .news-bay .water-bay {
     box-sizing: border-box;
     position: absolute;
     top: 388px;
     left: 1px;
 
-} 
+}
 
 
 
@@ -93,23 +106,25 @@ section.inf-bay .news-bay .fBox-bay {
     /* border-top: 1px solid gray; */
     border-top: 2px solid gray;
     border-bottom: 2px solid gray;
-    text-align: justify;  
+    text-align: justify;
 }
+
 section.inf-bay .news-bay .fBox-bay li {
     border-bottom: 1px solid rgba(196, 192, 192, 0.5);
     font-size: 14px;
     font-weight: 700;
-    
-    
-    
+
+
+
 }
+
 section.inf-bay .inner-bay {
     width: 1000px;
     margin: 0 auto;
     /* background: red; */
     /* position: absolute; */
-    
-    
+
+
 }
 
 /* 첫번쨰 블록 */
@@ -122,14 +137,16 @@ section.inf-bay .news-bay {
     height: 500px;
     margin-right: 9px;
     border-top: 2px solid blue;
-    border-width: 2px 1px 2px; 
-} 
+    border-width: 2px 1px 2px;
+}
+
 section.inf-bay .news-bay h3 {
     font-size: 28px;
     text-align: center;
     margin-bottom: 5px;
     font-weight: 900;
 }
+
 section.inf-bay .news-bay div {
     font-size: 18px;
     text-align: center;
@@ -138,6 +155,7 @@ section.inf-bay .news-bay div {
     /* border-bottom: 2px solid gray; */
     margin-bottom: 16px;
 }
+
 section.inf-bay .news-bay li {
     padding: 16px 10px;
     line-height: 1;
@@ -156,46 +174,53 @@ section.inf-bay .today-bay {
     border-top: 2px solid blue;
     border-width: 2px 1px 2px;
     text-align: center;
-    
+
 }
+
 section.inf-bay .today-bay h3 {
     position: relative;
     margin-bottom: 33px;
     /* background: beige; &&&&&&&&&&&&&&&&&&&&&&&*/
 }
+
 section.inf-bay .today-bay h3 strong {
-    
+
     font-size: 28px;
     text-align: center;
     /* margin-bottom: px; */
     font-weight: 900;
     /* background: skyblue; */
 }
+
 section.inf-bay .today-bay h3 p {
     margin-top: 20px;
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 0px;
-    
+
 }
-section.inf-bay .today-bay .fir-bay{
+
+section.inf-bay .today-bay .fir-bay {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 20px;
     padding-top: 10px;
-    border-top: 1px solid black;
+    border-top: 1px solid rgba(230, 230, 230, 0.9);
 }
+
 section.inf-bay .today-bay .sec-bay {
     color: blue;
     margin-bottom: 10px;
     font-size: 15px;
     font-weight: 550;
 }
+
 section.inf-bay .today-bay .thi-bay {
     font-size: 13px;
     font-weight: 500px;
     margin-bottom: 100px;
 }
+
 section.inf-bay .today-bay .use-bay {
     border: 1px solid blue;
     padding: 10px;
@@ -216,14 +241,19 @@ section.inf-bay .today-bay .use-bay {
       
 } */
 section.inf-bay .allSmart-bay .smart-bay {
-    float: left;
+    /* float: left; */
     box-sizing: border-box;
     width: 325px;
     height: 378px;
     border: solid #e6e6e6;
     border-width: 1px 1px 2px;
-    /* background: red; */
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
 }
+
+
+
 section.inf-bay .allSmart-bay .smart-bay h3 {
     box-sizing: border-box;
     margin: 0;
@@ -233,20 +263,25 @@ section.inf-bay .allSmart-bay .smart-bay h3 {
     position: relative;
     color: #fff;
     text-align: center;
+    width: 100%;
 }
+
 section.inf-bay .allSmart-bay .smart-bay h3 strong {
     font-size: 30px;
     font-weight: bold;
 }
+
 section.inf-bay .allSmart-bay .smart-bay h3 p {
     margin-top: 5px;
     font-size: 18px;
 }
+
 section.inf-bay .allSmart-bay .smart-bay h3 img {
     position: absolute;
     top: -13px;
     left: 240px;
 }
+
 /*  */
 /* section.inf-bay .allSmart-bay .smart-bay li {
     display: flex;
@@ -254,87 +289,187 @@ section.inf-bay .allSmart-bay .smart-bay h3 img {
     
 } */
 
-/*  */
 
 /* one */
 section.inf-bay .allSmart-bay .smart-bay .one-bay {
     /* background: yellowgreen; */
-    border: 1px solid gray;
-    width: 50%;
+    border: 1px solid rgba(230, 230, 230, 0.9);
+    box-sizing: border-box;
+    width: 161.5px;
     height: 82px;
-    float: left;
-    
-    
+
+    position: relative;
+    padding: 0 0 0 20px;
+    /* float: left; */
+    border-right: none;
+    border-bottom: none;
+
+
+
+}
+
+section.inf-bay .allSmart-bay .smart-bay .one-bay a {
+    display: flex;
+
+}
+section.inf-bay .allSmart-bay .smart-bay .one-bay a .text1 {
+    height: 59px;
+
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 20px;
+    letter-spacing: -1px;
+    line-height: 59px;
     
 }
 
-/* section.inf-bay .allSmart-bay .smart-bay .one-bay a {
-    background: red;
-} */
+section.inf-bay .allSmart-bay .smart-bay .two-bay a {
+    display: flex;
+
+}
+
+section.inf-bay .allSmart-bay .smart-bay .two-bay a .text1 {
+    height: 59px;
+
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 10px;
+    line-height: 59px;
+    letter-spacing: -1px;
+    
+}
+
+section.inf-bay .allSmart-bay .smart-bay .thr-bay a {
+    display: flex;
+}
+section.inf-bay .allSmart-bay .smart-bay .thr-bay a .text1 {
+    height: 59px;
+
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 10px;
+    line-height: 59px;
+    letter-spacing: -1px;
+    
+}
+
+section.inf-bay .allSmart-bay .smart-bay .fou-bay a {
+    display: flex;
+
+}
+section.inf-bay .allSmart-bay .smart-bay .fou-bay a .text1 {
+    height: 59px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 20px;
+    line-height: 59px;
+    letter-spacing: -1px;
+    
+}
+section.inf-bay .allSmart-bay .smart-bay .fiv-bay a {
+    display: flex;
+
+}
+section.inf-bay .allSmart-bay .smart-bay .fiv-bay a .text1 {
+    height: 59px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 15px;
+    line-height: 59px;
+    letter-spacing: -1px;
+}
+
+
+
+
+section.inf-bay .allSmart-bay .smart-bay li a img {
+    padding-top: 18px;
+
+
+}
 
 /* two */
 section.inf-bay .allSmart-bay .smart-bay .two-bay {
-    border: 1px solid gray;
-    width: 48%;
+    border: 1px solid rgba(230, 230, 230, 0.9);
+    box-sizing: border-box;
+    width: 161.5px;
     height: 82px;
-    float: right;
+    line-height: 50px;
+    padding: 0 0 0 20px;
+    /* float: right; */
+    border-bottom: none;
+
 }
 
 /* thr */
 section.inf-bay .allSmart-bay .smart-bay .thr-bay {
-    border: 1px solid gray;
-    width: 50%;
+    border: 1px solid rgba(230, 230, 230, 0.9);
+    box-sizing: border-box;
+    width: 161.5px;
     height: 82px;
-    float: left;
+    line-height: 82px;
+    padding: 0 0 0 20px;
+    /* float: left; */
+    border-right: none;
+    border-bottom: none;
 }
 
 /* fou */
 section.inf-bay .allSmart-bay .smart-bay .fou-bay {
-    border: 1px solid gray;
-    width: 48%;
+    border: 1px solid rgba(230, 230, 230, 0.9);
+    box-sizing: border-box;
+    width: 161.5px;
     height: 82px;
-    float: right;
+    line-height: 82px;
+    padding: 0 0 0 20px;
+    /* float: right; */
 }
 
 /* fiv */
 section.inf-bay .allSmart-bay .smart-bay .fiv-bay {
-    border: 1px solid gray;
+    border: 1px solid rgba(230, 230, 230, 0.9);
+    box-sizing: border-box;
     width: 50%;
-    height: 82px;
+    height: 77px;
+    line-height: 77px;
+    padding: 0 0 0 20px;
+    border-right: none;
 }
 
 /* bus */
 
 section.inf-bay .allSmart-bay .bus-bay {
     /* background: red; */
-      float: left;
-      box-sizing: border-box;
-      margin: 10px 0 0;
-      padding: 0 20px;
-      width: 325px;
-      height: 112px;
-      border: solid #e6e6e6;
-      border-width: 1px 1px 2px;
-      background-color: #fff; 
-      position: relative; 
-  }
+    float: left;
+    box-sizing: border-box;
+    margin: 10px 0 0;
+    padding: 0 20px;
+    width: 325px;
+    height: 112px;
+    border: solid #e6e6e6;
+    border-width: 1px 1px 2px;
+    background-color: #fff;
+    position: relative;
+}
 
-  section.inf-bay .allSmart-bay .bus-bay p {
+section.inf-bay .allSmart-bay .bus-bay p {
     /* float: right;  이따 다시 확인!!!!*/
     text-align: center;
     line-height: 1.6;
     padding: 0 0 0 50px;
-   
-   
-    
-  }
-  section.inf-bay .allSmart-bay .bus-bay a img {
+
+
+
+}
+
+section.inf-bay .allSmart-bay .bus-bay a img {
     /* border: 3px solid red; */
     float: left;
     position: absolute;
     top: 23px;
-    
-  }
+
+}
+
 section.inf-bay .allSmart-bay .bus-bay a .myHome-bay {
     margin-top: 40px;
     font-size: 12px;
@@ -349,4 +484,153 @@ section.inf-bay .allSmart-bay .bus-bay a span {
     color: purple;
     font-weight: 500;
     font-size: 14px;
+}
+
+
+
+
+
+
+/*---------------------------------------------------------*/
+
+/* footer-top style */
+section.footer {
+    width: 100%;
+    height: 190px;
+    background: url(../img/footer_background.gif) repeat-x;
+}
+
+section.footer .footer-top {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+
+    padding-top: 1px;
+    height: 32px;
+}
+
+section.footer .footer-top dl dt {
+    padding-right: 0;
+    float: left;
+}
+
+section.footer .footer-top dl dd {
+    float: left;
+}
+
+section.footer .footer-top .botton {
+    float: right;
+    margin-top: 6px;
+
+    position: relative;
+}
+
+section.footer .footer-top .resort {
+    width: 137px;
+    position: absolute;
+    right: 20%;
+    bottom: 100%;
+}
+
+section.footer .footer-top .family {
+    width: 188px;
+    position: absolute;
+    right: 0%;
+    bottom: 95%;
+}
+
+section.footer .footer-top .tempbox {
+
+    float: right;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 8px;
+    line-height: 1.4;
+    background: white;
+    margin-bottom: -5px;
+}
+
+section.footer .footer-top .tempbox a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+/* end footer-top */
+
+/* footer-bottom style */
+
+section.footer .footer-bottom {
+    /* background:  #444b55; */
+    color: #8e8e8e;
+    width: 960px;
+    position: relative;
+    font-size: 12px;
+    box-sizing: border-box;
+    /* padding-left: 240px; */
+    margin: 0 auto;
+
+}
+section.footer .footer-bottom a {
+    text-decoration: none;
+    color: black;
+    color: #8e8e8e;
+}
+
+section.footer .footer-bottom .footer-menu {
+    padding-top: 24px;
+    /* background:  #444b55; */
+     
+}
+
+section.footer .footer-bottom .footer-menu li .intro-ft {
+    padding-left: 0;
+}
+
+section.footer .footer-bottom .footer-menu li a {
+    text-decoration: none;
+    float: left;
+    padding: 0 10px;
+    font-size: 12px; 
+    border-right: 1px solid rgba(196, 192, 192, 0.5);
+}
+/* section.footer .footer-bottom .footer-menu:nth-child(1) {
+    padding-left: 0;
+} */
+section.footer .footer-bottom address p {
+    line-height: 20px;
+}
+
+section.footer .footer-bottom address {
+    position: relative;
+}
+
+section.footer .footer-bottom a img {
+    background: white;
+    border-radius: 10px;
+    padding: 5px 5px;
+    position: absolute;
+    left: 775px;
+    top: 35px;
+}
+    
+
+
+section.footer .footer-bottom address p strong a {
+    font-weight: 700;
+}
+
+section.footer .footer-bottom .footer-menu li .cast-ft {
+    /* border: 1px solid red; */
+    color: rgb(213, 206, 206);
+    font-weight: 500;
+}
+section.footer .footer-bottom .footer-menu li .site-ft {
+    color: rgb(213, 206, 206);
+    font-weight: 500;
+}
+
+section.footer .footer-bottom address p a span {
+    color: rgb(212, 200, 200);
+    font-weight: 600;
 }
