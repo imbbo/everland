@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./CBHeadFoot.css">
+    <!-- 파비콘 넣기 -->
+    <link rel="icon" href="./favicon.ico">
+
+    <!-- 파비콘 넣기  파일은 있으니 넣기-->
+    <link rel="icon" href="../img/favicon.ico">
+    <!-- reset css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="../common.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="supercon">
+            <div class="top">
+      
+                <div class="left"></div>
+                <div class="topcon">
+                    <a href="" class="toplogo">
+                        <div class="topimg"><img src="./img/top_logo1.jpg" alt=""></div>
+                    </a><a href="../index.html" class="topunder">
+                        <div class="topfirst">에버랜드</div>
+                    </a><a href="">
+                        <div class="top2">캐리비안베이</div>
+                    </a><a href="">
+                        <div class="top3">홈브리지</div>
+                    </a><a href="../everland.speedway/index.html">
+                        <div class="top4">스피드웨이</div>
+                    </a><a href="">
+                        <div class="top5"><img src="./img/bull_earth.gif" alt=""><span class="t5">汉语(简体)</span></div>
+                    </a><a href="" class="orange">
+                        <div>스마트예약</div>
+                    </a><a href="" class="blue">
+                        <div>학생단체예약</div>
+                    </a><a href="" class="purple">
+                        <div>기업단체예약</div>
+                    </a>
+                </div>
+                <div class="right"></div>
+            </div>
+            <div class="mid">
+                <div class="midcon">
+                    <div class="search">
+                        <div class ="searchcon">
+                            
+                                <input type="text">
+                                <button><img src="./img/search.png" alt=""></button>
+                            
+                        </div>
+                    </div>
+                    <div class="mainlogo"><img src="./img/CBlogo.gif" alt=""></div>
+                    <div class="user">
+                        <ul>
+                            <li class ="user1"><a  href="" >로그인</a></li>
+                            <li><a href="">회원가입</a></li>
+                            <li><a href="">손님상담센터</a></li>
+                            <li><a href="">CAST 채용</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="bottomcon">
+                    <ul>
+                        <li><a href="">이용정보</a></li>
+                        <li><a href="">즐길거리</a></li>                       
+                        <li><a href="">캐리비안 베이 더 알아보기</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="hidden">
+                    <div class="hiddencon">
+                        <ul>
+                            <li class="cbfirst">
+                                <div>뉴스공지</div>
+                                <div>이용방법</div>
+                                <div>운영시간(운휴 정보)</div>
+                                <div>교통정보</div>
+                                <div>편의시설</div>
+                                <div>가이드맵</div>
+                                
+                                
+                            </li>
+                           
+                            <li>
+                                
+                                <div>어트랙션</div>
+                                <div>빌리지</div>
+                             
+                                <div>레스토랑</div>
+                                <div>선물샵</div>
+                                
+                            </li>
+                            <li>
+                                
+                                <div>캐리비안 베이 스토리</div>
+                                
+               
+                            </li>
+                            <li class="appbox"><img src="./img/app.jpg" class="app"alt=""></li>
+                        </ul>
+    
+                    </div>
+                </div>
+            </div>
+           
+
+           
+        </div>
+    </header>
+    <script>
+        const $menu = document.querySelector('.bottom .bottomcon ul');
+        const $hidden = document.querySelector('header .supercon .hidden');
+        $menu.addEventListener('mouseover', function () {
+            $hidden.classList.add('on');
+        });
+
+        $hidden.addEventListener('mouseout', function () {
+            $hidden.classList.remove('on');
+        });
+    </script>
+    <!-- section.main-bay -->
+    <section class="main-bay">
+        <!-- <ul class="manu-bay">
+           <li><a href="#">이용정보</a></li>
+           <li><a href="#">즐길거리</a></li>
+           <li><a href="#">케리비안 베이 더 알아보기</a></li>
+        </ul> -->
+        <!-- 메인 이미지와 안내 텍스트 이미지 -->
+
+        <ul class="main-img-bay">
+            <li>
+                <a href="#" class="long-img-bay"><img src="./img/caribbeanbaymainimg.jpg" alt="케리비안 베이 이미지"></a>
+                <a href="#" class="text-img-bay"><img src="./img/caribbean bay main img.png" alt="안내문구"></a>
+                <a href="#" class="stop-bay"><img src="./img/btn-bay.png" alt=""></a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- section.information-bay -->
+    <section class="inf-bay">
+        <h3 class="main-inf-bay">Information</h3>
+        <div class="now-bay"> 지금 바로 생생한 현장 소식</div>
+        <!-- first block -->
+        <div class="inner-bay">
+            <ul class="news-bay">
+                <h3>NEWS & NOTICE</h3> <br>
+                <div>새로운 소식들</div> <br>
+                <div class="fBox-bay">
+                    <li><a href="#">케리비안 베이 정기 휴장 안내</a></li>
+                    <li><a href="#">23년 시즌 캘린더 안내</a></li>
+                    <li><a href="#">위치 기반 서비스 종료 안내</a></li>
+                    <li><a href="#">[공지] 방수 마스크 안내</a></li>
+                    <li><a href="#">내 카드 제휴/할인 조회 서비스 오픈!</a></li>
+                </div>
+                <li><a href="#" class="water-bay"><img src="./img/caribbean bay water check.jpg" alt="수질확인"></a></li>
+            </ul>
+            <!-- sec block -->
+            <ul class="today-bay">
+                <h3>
+                    <strong>TODAY</strong>
+                    <p class="play-bay">오늘의 운영시간</p>
+                </h3>
+                <li class="fir-bay">03월 28일(화)</li>
+                <li class="sec-bay">오늘의 운휴 안내</li>
+                <li class="thi-bay">라꼬스타,폴바셋,하버 마스터 <br>
+                    하버 스낵</li>
+                <li><a href="#" class="use-bay">케리비안 이용방법 A to Z</a></li>
+            </ul>
+            <!-- thi block -->
+            <div class="allSmart-bay">
+                <ul class="smart-bay">
+                    <h3>
+                        <strong>스마트예약</strong>
+                        <p>방문 전에 미리 준비!</p>
+                        <img src="./img/everlan char.png" alt="쟤">
+                    </h3>
+
+                    <!-- <li class="char"><img src="./img/everlan char.png" alt="캐릭터"></li> -->
+                    <li class="one-bay"><a href="#"><img src="./img/t.png" alt="">
+                            <div class="text1">이용권</div>
+                        </a></li>
+                    <li class="two-bay"><a href="#"><img src="./img/bayco.png" alt="">
+                            <div class="text1">베이코인</div>
+                        </a></li>
+                    <li class="thr-bay"><a href="#"><img src="./img/park.png" alt="">
+                            <div class="text1">발레파킹</div>
+                        </a></li>
+                    <li class="fou-bay"><a href="#"><img src="./img/hoem.png" alt="">
+                            <div class="text1">빌리지</div>
+                        </a></li>
+                    <li class="fiv-bay"><a href="#"><img src="./img/chairrrr.png" alt="">
+                            <div class="text1">실내비치체어</div>
+                        </a></li>
+                </ul>
+                <div class="bus-bay">
+                    <a href="#">
+                        <p class="myHome-bay">"우리집에서 에버랜드까지</p>
+                        <p class="myCar-bay"><span>대중교통•자가용</span> 이용방법</p>
+                        <img src="./img/bbbuss.png" alt="bus">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- footer -->
+    <footer>
+
+        <section class="footer">
+            <div class="footer-top">
+                <dl>
+                    <dt>
+                        <a href="#"><img src="./img/footer_youtube.gif" alt="유투브"></a>
+                    </dt>
+                    <dd>
+                        <a href="#"><img src="./img/footer_instar.gif" alt="인스타"></a>
+                    </dd>
+                    <dd>
+                        <a href="#"><img src="./img/footer_facebook.gif" alt="페이스북"></a>
+                    </dd>
+                    <dd>
+                        <a href="#"><img src="./img/footer_blog.gif" alt="블로그"></a>
+                    </dd>
+                    <dd>
+                        <a href="#"><img src="./img/footer_Tstory.gif" alt="티스토리"></a>
+                    </dd>
+                    <dd>
+                        <a href="#"><img src="./img/footer_twit.gif" alt="트위터"></a>
+                    </dd>
+                </dl>
+
+                <div class="botton">
+                    <a href="#"><img src="./img/footer_botton1.gif" alt="버튼1"></a>
+                    <a href="#"><img src="./img/footer_botton2.gif" alt="버튼2"></a>
+                </div>
+
+                <div class="tempbox resort">
+                    <a href="#"><p>교통박물관</p></a>
+                    <a href="#"><p>호암미술관</p></a>
+                    <a href="#"><p>글렌로스 골프클럽</p></a>
+                </div>
+
+                <div class="tempbox family">
+                    <a href="#"><p>삼성물산 리조트부문</p></a>
+                    <a href="#"><p>골프삼성</p></a>
+                    <a href="#"><p>삼성화재안내견학교</p></a>
+                    <a href="#"><p>서비스아카데미</p></a>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <ul class="footer-menu">
+                    <li>
+                        <a href="" class="intro-ft">에버랜드 리조트 소개</a>
+                    </li>
+                    <li>
+                        <a href="">이용약 </a>
+                    </li>
+                    <li>
+                        <a href="">이메일주소 무단수집 거 </a>
+                    </li>
+                    <li>
+                        <a href="" class="cast-ft">CAST 참여</a>
+                    </li>
+                    <li>
+                        <a href="" class="site-ft">사이트맵</a>
+                    </li>
+                </ul>
+                <br>
+                <br>
+                <address>
+                    <p>경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성물산(주)</p>
+                    <p>대표이사 : 정해린 | 사업자등록번호 : 135-85-04288 | 통신판매업 신고번호 : 제2006-용인처인-0216호 | <a href="">사업자정보확인▶</a></p>
+                    <p>
+                        <strong><a href="" class="cen-ft">손님상담센터</a>
+                            : 031-320-5000(유료) |
+                        </strong>
+                        <a href=""><span class="a-ft">개인정보처리방침</span></a> |
+                        <a href=""><span class="b-ft">방침 개정 안내</span></a> |
+                        <a href=""><span class="c-ft">입찰공고</span></a>
+                    </p>
+                    <p>Copyright © Samsung C&T Corporation. All rights reserved. </p>
+                </address>
+                <a href="" class="kgimg"><img src="./img/kg.gif" alt=""></a>
+            </div>
+
+
+        </section>
+
+
+    </footer>
+    <!-- end footer -->
+
+</body>
+
+</html>

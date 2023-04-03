@@ -1,0 +1,459 @@
+header .supercon {
+    width: 100%;
+    height: 149px;
+    
+}
+
+/*head top*/
+
+header .supercon .top{
+    width: 100%;
+    background: #F6F6F6;
+    display:flex;
+    justify-content: center;
+    
+
+}
+header .supercon .top .left{
+    width: 32%;
+    border-bottom: 1px solid #b7b7b7;
+}
+header .supercon .top .right{
+    width: 32%;
+    border-bottom: 1px solid #b7b7b7;
+}
+header .supercon .topcon {
+    width: 960px;
+    background: #F6F6F6;
+    margin: 0 auto 0;
+    
+    display: flex;
+    
+}
+header .supercon .top .topcon .toplogo {
+  box-sizing: border-box;
+  
+    
+}
+/* header .supercon .top .topcon a {
+    border-bottom: 1px solid #b7b7b7;
+} */
+
+header .supercon .top .topcon a .topfirst {
+    border-bottom: none;
+    background: white;
+}
+header .supercon .top .topcon a .top2{
+    border-bottom: 1px solid #b7b7b7;
+}
+header .supercon .top .topcon a .top3{
+    border-bottom: 1px solid #b7b7b7;
+}
+header .supercon .top .topcon a .top4{
+    border-bottom: 1px solid #b7b7b7;
+}
+header .supercon .top .topcon a .top5{
+    border-bottom: 1px solid #b7b7b7;
+    position: relative;
+}
+
+
+header .supercon .top .topcon a .top5 img{
+    margin-right: 5px;
+    /* margin-top: 13px; */
+    
+}
+
+header .supercon .top .drop{
+    position: absolute;
+    top:3%;
+    left:57%;
+    
+    width: 150px;
+    height: 150px;
+    /* background-color: red; */
+    z-index: 999;
+}
+
+
+
+header .supercon .top .topcon a .top2:hover{
+    background: white;
+       
+}
+header .supercon .top .topcon a .top3:hover{
+    background: white;
+       
+}
+header .supercon .top .topcon a .top4:hover{
+    background: white;
+       
+}
+
+
+header .supercon .topcon a div{
+    width: 100px;
+    height: 39px;
+    text-align: center;
+    
+    border-left: 1px solid #b7b7b7;
+    font-size: 14px;
+    line-height: 39px;
+    font-weight: 700;   
+
+}
+
+header .supercon .topcon .toplogo .topimg{
+    width: 150px;
+    
+    border-left: 0px;
+    border-bottom: 1px solid #b7b7b7;
+    
+    
+}
+header .supercon .topcon .toplogo div img{
+    border: 0px;
+}
+
+header .supercon .topcon .orange{
+    background: #FF7F02;
+    color: white;
+}
+header .supercon .topcon .blue{
+    background: #2DBDCA;
+    color: white;
+}
+header .supercon .topcon .purple{
+    background: #892FD5;
+    color: white;
+}
+
+
+/*head mid*/
+
+header .supercon .mid{
+    width: 100%;
+    background: white;
+    border-bottom: 2px solid #FF7F02;
+}
+
+header .supercon .midcon {
+    width: 960px;
+    height: 65px;
+    background: white;
+    margin: 0 auto 0;    
+    display: flex;
+}
+header .supercon .mid .midcon .search{
+
+    width: 33%;
+
+}
+button{
+    background: inherit ; border:none; box-shadow:none; border-radius:0; padding:0; overflow:visible; cursor:pointer
+}
+
+header .supercon .mid .midcon .search .searchcon{
+    border: 0px;
+    display: flex;
+    width: 241px;
+    height: 32px;
+    margin-top: 15px;
+    
+    border:1px solid #b7b7b7;
+}
+
+header .supercon .mid .midcon .search .searchcon img{
+    margin-left: 30px;
+
+}
+header .supercon .mid .midcon .search .searchcon input{
+    
+    border: 0;
+    outline: none;
+    border-radius: 0;
+}
+header .supercon .mid .midcon .mainlogo{
+
+    width: 33%;
+    
+    text-align: center;
+    line-height: 96px;
+    
+}
+header .supercon .mid .midcon .user{
+
+    width: 33%;
+
+}
+header .supercon .mid .midcon .user ul{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 0px;
+    width: 100%;
+    justify-content: flex-end;
+    
+    
+}
+header .supercon .mid .midcon .user ul li{
+    
+}
+header .supercon .mid .midcon .user ul li a{
+    box-sizing: border-box;
+    padding-left: 10px;
+   margin-left: 10px;
+    font-size: 12px;
+    border-left: 1px solid #8e8e8e;
+    text-align: right;
+    color: #8e8e8e;
+
+}
+header .supercon .mid .midcon .user ul .user1 a{
+    border: 0px;
+}
+
+
+/*head bottom*/
+header .supercon .bottom{
+    width: 100%;
+    border-bottom: 1px solid #b7b7b7;
+    /* background: red; */
+}
+
+header .supercon .bottom .bottomcon{
+    width: 960px;
+    
+    background: white;
+    margin: 0 auto;
+   
+    position: relative;
+}
+
+header .supercon .bottom .bottomcon ul img{
+    width: 24px;
+    
+    position: absolute;
+    left :104%;
+    top: 20%;
+}
+
+header .supercon .bottom .bottomcon ul{
+    display: flex;
+    position: relative;
+}
+header .supercon .bottom .bottomcon ul li{
+    width: 192px;
+    height: 43px;
+    /* background-color: skyblue; */
+    text-align: center;
+    line-height: 43px;
+    font-size: 16px;
+    letter-spacing: -1px;
+    
+    
+}
+header .supercon .bottom .bottomcon ul li:hover{
+    background: #FF7F02;
+    color: white;
+}
+
+
+
+header .supercon .hidden{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 300px;
+    background: white;
+    display: none;
+}
+
+header .supercon .hidden.on {
+    border: 1px solid #cacaca;
+    display: block;
+}
+
+header .supercon .test{
+    width: 100%;
+    height: 100000px;
+    background: #838383;
+    font-size: 100px;
+}
+
+header .supercon .bottom .hidden .hiddencon {
+    margin: 0 auto;
+    width: 960px;
+    height: 300px;
+    background: white;
+    /* border: 1px solid #cacaca; */
+}
+header .supercon .bottom .hidden .hiddencon ul{
+    display: flex;
+}
+
+header .supercon .bottom .hidden .hiddencon ul li{
+    width : 192px;
+    height: 300px;    
+    box-sizing: border-box;
+   
+    padding: 20px 25px ;
+    border-right: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+    
+}
+header .supercon .bottom .hidden .hiddencon ul .hf{
+    border-left: 1px solid #cacaca
+    
+}
+header .supercon .bottom .hidden .hiddencon ul li div{
+    margin-bottom: 12px;
+    font-size: 15px;
+    letter-spacing: -1px;
+}
+
+
+
+
+/*FOOT===============================*/
+
+/* footer-top style */
+section.footer {
+    width: 100%;
+    height: 180px;
+    background: url(./img/footer_background.gif) repeat-x;
+}
+
+section.footer .footer-top {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+
+    padding-top: 1px;
+    height: 32px;
+}
+
+section.footer .footer-top dl dt {
+    padding-right: 0;
+    float: left;
+}
+
+section.footer .footer-top dl dd {
+    float: left;
+}
+
+section.footer .footer-top .botton {
+    float: right;
+    margin-top: 6px;
+
+    position: relative;
+}
+
+section.footer .footer-top .resort {
+    width: 137px;
+    position: absolute;
+    right: 20%;
+    bottom: 100%;
+}
+
+section.footer .footer-top .family {
+    width: 188px;
+    position: absolute;
+    right: 0%;
+    bottom: 95%;
+}
+
+section.footer .footer-top .tempbox {
+
+    float: right;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 8px;
+    line-height: 1.4;
+    background: white;
+    margin-bottom: -5px;
+}
+
+section.footer .footer-top .tempbox a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+/* end footer-top */
+
+/* footer-bottom style */
+
+section.footer .footer-bottom {
+    /* background:  #444b55; */
+    color: #8e8e8e;
+    width: 960px;
+    position: relative;
+    font-size: 12px;
+    box-sizing: border-box;
+    /* padding-left: 240px; */
+    margin: 0 auto;
+
+}
+section.footer .footer-bottom a {
+    text-decoration: none;
+    color: black;
+    color: #8e8e8e;
+}
+
+section.footer .footer-bottom .footer-menu {
+    padding-top: 24px;
+    /* background:  #444b55; */
+     
+}
+
+section.footer .footer-bottom .footer-menu li .intro-ft {
+    padding-left: 0;
+}
+
+section.footer .footer-bottom .footer-menu li a {
+    text-decoration: none;
+    float: left;
+    padding: 0 10px;
+    font-size: 12px; 
+    border-right: 1px solid rgba(196, 192, 192, 0.5);
+}
+/* section.footer .footer-bottom .footer-menu:nth-child(1) {
+    padding-left: 0;
+} */
+section.footer .footer-bottom address p {
+    line-height: 20px;
+}
+
+section.footer .footer-bottom address {
+    position: relative;
+}
+
+section.footer .footer-bottom a img {
+    background: white;
+    border-radius: 10px;
+    padding: 5px 5px;
+    position: absolute;
+    left: 775px;
+    top: 35px;
+}
+    
+
+
+section.footer .footer-bottom address p strong a {
+    font-weight: 700;
+}
+
+section.footer .footer-bottom .footer-menu li .cast-ft {
+    /* border: 1px solid red; */
+    color: rgb(213, 206, 206);
+    font-weight: 500;
+}
+section.footer .footer-bottom .footer-menu li .site-ft {
+    color: rgb(213, 206, 206);
+    font-weight: 500;
+}
+
+section.footer .footer-bottom address p a span {
+    color: rgb(212, 200, 200);
+    font-weight: 600;
+}

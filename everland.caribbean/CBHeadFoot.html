@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!--reset-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+     <link rel="stylesheet" href="./main.css">
+     <link rel="stylesheet" href="./CBHeadFoot.css">
+     <link rel="stylesheet" href="./common.css">
+</head>
+<body>
+    <header>
+        <div class="supercon">
+            <div class="top">
+                <!-- <div class="drop"><ul>
+                    <li>Englsih</li>
+                    <li>Englsih</li>
+                    <li>Englsih</li>
+                </ul></div> -->
+                <div class="left"></div>
+                <div class="topcon">
+                    <a href="" class="toplogo">
+                        <div class="topimg"><img src="./img/top_logo1.jpg" alt=""></div>
+                    </a><a href="" class="topunder">
+                        <div class="topfirst">에버랜드</div>
+                    </a><a href="">
+                        <div class="top2">캐래비안베이</div>
+                    </a><a href="">
+                        <div class="top3">홈브리지</div>
+                    </a><a href="">
+                        <div class="top4">스피드웨이</div>
+                    </a><a href="">
+                        <div class="top5"><img src="./img/bull_earth.gif" alt=""><span class="t5">汉语(简体)</span></div>
+                    </a><a href="" class="orange">
+                        <div>스마트예약</div>
+                    </a><a href="" class="blue">
+                        <div>학생단체예약</div>
+                    </a><a href="" class="purple">
+                        <div>기업단체예약</div>
+                    </a>
+                </div>
+                <div class="right"></div>
+            </div>
+            <div class="mid">
+                <div class="midcon">
+                    <div class="search">
+                        <div class ="searchcon">
+                            
+                                <input type="text">
+                                <button><img src="./img/search.png" alt=""></button>
+                            
+                        </div>
+                    </div>
+                    <div class="mainlogo"><img src="./img/CBlogo.gif" alt=""></div>
+                    <div class="user">
+                        <ul>
+                            <li class ="user1"><a  href="" >로그인</a></li>
+                            <li><a href="">회원가입</a></li>
+                            <li><a href="">손님상담센터</a></li>
+                            <li><a href="">CAST 채용</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="bottomcon">
+                    <ul>
+                        <li><a href="">이용정보</a></li>
+                        <li><a href="">즐길거리</a></li>                       
+                        <li><a href="">캐리비안 베이 더 알아보기</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="hidden">
+                    <div class="hiddencon">
+                        <ul>
+                            <li class="cbfirst">
+                                <div>뉴스공지</div>
+                                <div>이용방법</div>
+                                <div>운영시간(운휴 정보)</div>
+                                <div>교통정보</div>
+                                <div>편의시설</div>
+                                <div>가이드맵</div>
+                                
+                                
+                            </li>
+                           
+                            <li>
+                                
+                                <div>어트랙션</div>
+                                <div>빌리지</div>
+                             
+                                <div>레스토랑</div>
+                                <div>선물샵</div>
+                                
+                            </li>
+                            <li>
+                                
+                                <div>캐리비안 베이 스토리</div>
+                                
+               
+                            </li>
+                            <li class="appbox"><img src="./img/app.jpg" class="app"alt=""></li>
+                        </ul>
+    
+                    </div>
+                </div>
+            </div>
+           
+
+           
+        </div>
+    </header>
+
+    <script>
+        const $menu = document.querySelector('.bottom .bottomcon ul');
+        const $hidden = document.querySelector('header .supercon .hidden');
+        $menu.addEventListener('mouseover', function() {
+            $hidden.classList.add('on');
+        });
+
+        $hidden.addEventListener('mouseout', function() {
+            $hidden.classList.remove('on');
+        });
+
+    </script>
+
+
+</body>
+</html>

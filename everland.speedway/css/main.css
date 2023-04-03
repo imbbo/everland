@@ -1,0 +1,491 @@
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.wrap {
+    /* width: 100%; */
+    /* margin-bottom: 50px; */
+}
+
+
+section.speedway {
+    width: 1440px;
+    margin: 0 auto 0;
+    background: url(../img/background.jpg) no-repeat center 1px;
+    background-color: rgb(229, 229, 229);
+
+    /* position: relative;
+    z-index: 20;
+    margin-top: -60px; */
+}
+
+/* speedway-wrap style */
+section.speedway .speedway-wrap {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 261px;
+
+    /* width: 960px;
+    margin: 0 auto; */
+    background: url(../img/background.jpg) no-repeat center 1px;
+}
+
+/* sub-title style */
+section.speedway .speedway-wrap .sub-title {
+    width: 100%;
+    /* background: orange; */
+    position: absolute;
+    top: 41px;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+section.speedway .speedway-wrap .sub-title h2 {
+    font-size: 38px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+section.speedway .speedway-wrap .sub-title p {
+    margin-top: 22px;
+    font-size: 11px;
+}
+
+section.speedway .speedway-wrap .sub-title p em {
+    font-weight: 700;
+}
+
+/* end sub-title */
+
+/* side-menu style */
+section.speedway .speedway-wrap .side-menu {
+    width: 195px;
+    float: left;
+    height: 300px;
+}
+
+section.speedway .speedway-wrap .side-menu .side-menu2-pic {
+    background: url(../img/side-menu2.gif) no-repeat;
+    height: 350px;
+    border-radius: 3%;
+}
+
+section.speedway .speedway-wrap .side-menu .side-menu1-pic {
+    background: url(../img/side-menu1.png) no-repeat top;
+    height: 350px;
+}
+
+section.speedway .speedway-wrap .side-menu ul {
+    line-height: 30px;
+    padding: 85px 21px 20px 22px;
+    font-size: 13px;
+}
+
+section.speedway .speedway-wrap .side-menu ul a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section.speedway .speedway-wrap .side-menu ul a.inner-menu {
+    font-size: 12px;
+    padding-left: 20px;
+    opacity: 0.6;
+
+}
+
+section.speedway .speedway-wrap .side-menu ul a:nth-child(2) {
+    opacity: 1;
+}
+
+section.speedway .speedway-wrap .side-menu ul a.inner-menu:hover {
+    opacity: 1;
+}
+
+
+
+
+section.speedway .speedway-wrap .side-menu ul .underbar {
+    border-bottom: 1px solid rgb(53, 53, 53);
+}
+
+section.speedway .speedway-wrap .side-menu ul a.first:hover {
+    background: rgb(40, 50, 146);
+    border: 1px solid #cccccc59;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+section.speedway .speedway-wrap .side-menu ul li:nth-child(2) a:nth-child(1) {
+    background: rgb(40, 50, 146);
+    border: 1px solid #cccccc59;
+    border-radius: 3px;
+}
+
+section.speedway .speedway-wrap .side-menu ul li:nth-child(2) a:nth-child(2) {
+    /* 스피드웨이 소개 */
+}
+
+
+/* end side-menu */
+
+/* main-contents style */
+section.speedway .speedway-wrap .main-contents {
+    background: white;
+    border-radius: 5px;
+    margin-left: 35px;
+    float: left;
+    margin-bottom: 60px;
+}
+
+section.speedway .speedway-wrap .main-contents .mini-title {
+    /* background: orange; */
+    padding: 16px 0 16px 30px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+}
+
+/* section.speedway .speedway-wrap .main-contents .inner-contents {
+    background: #e2e2e2;
+    margin: 30px 20px;
+    padding: 7px;
+    border: 1px solid;
+    font-weight: bold;
+
+    display: flex;
+}
+
+section.speedway .speedway-wrap .main-contents .inner-contents a {
+    color: black;
+    text-decoration: none;
+    margin: 5px 39px;
+    font-size: 12px;
+
+    display: block;
+}
+section.speedway .speedway-wrap .main-contents .inner-contents a:nth-child(1) {
+    
+    color: blue;
+    background: white;
+    font-weight: bold;
+} */
+
+section.speedway .speedway-wrap .main-contents .inner-contents {
+    background: url(../img/bar.gif) no-repeat 0 2px;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 28px;
+}
+
+section.speedway .speedway-wrap .main-contents .inner-contents a {
+    display: block;
+    padding: 10px 0 17px 0;
+    width: 223px;
+}
+
+section.speedway .speedway-wrap .main-contents .inner-contents a img {
+    padding-left: 82px;
+    padding-bottom: 3px;
+}
+
+section.speedway .speedway-wrap .main-contents .inner-contents a:nth-child(1) {
+    background: url(../img/tab1-outline.png) no-repeat 0 0;
+
+}
+
+/* mid1 style */
+section.speedway .speedway-wrap .main-contents .mid1 {
+    font-size: 14px;
+    padding: 0px 32px;
+    margin-bottom: 100px;
+}
+
+section.speedway .speedway-wrap .main-contents .mid1 div:nth-child(1) {
+    text-align: center;
+    margin: 50px 0;
+}
+
+section.speedway .speedway-wrap .main-contents .mid1 div:nth-child(1) p {
+    line-height: 146%;
+    margin-top: 12px;
+}
+
+section.speedway .speedway-wrap .main-contents .mid1 div:nth-child(2) h4 {
+    margin-bottom: 18px;
+}
+
+section.speedway .speedway-wrap .main-contents .mid1 div:nth-child(2) ul li {
+    line-height: 146%;
+    padding: 0 0 7px 8px;
+}
+
+section.speedway .speedway-wrap .main-contents .mid1 div:nth-child(2) ul li b {
+    font-weight: bold;
+}
+
+section.speedway .speedway-wrap .main-contents .mid1 div:nth-child(2) ul li p {
+    display: inline;
+}
+
+section.speedway .speedway-wrap .main-contents .mid1 div:nth-child(2) ul li p span {
+    margin-left: 122px;
+}
+
+section.speedway .speedway-wrap .main-contents .mid1 div:nth-child(2) ul li p.star {
+    font-size: 13px;
+    color: #7c80a9;
+    margin-left: 12px;
+}
+
+/* end mid1 */
+
+/* mid2 style */
+section.speedway .speedway-wrap .main-contents .mid2 {
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+
+section.speedway .speedway-wrap .main-contents .mid2 div:nth-child(1) {
+    text-align: center;
+    margin: 50px 0;
+}
+
+section.speedway .speedway-wrap .main-contents .mid2 div:nth-child(1) p {
+    line-height: 146%;
+    margin-top: 12px;
+}
+
+section.speedway .speedway-wrap .main-contents .mid2 div:nth-child(2) h4 {
+    margin-bottom: 18px;
+    padding-left: 32px;
+}
+
+/* end mid2 */
+
+/* mid3 style */
+section.speedway .speedway-wrap .main-contents .mid3 {
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+
+section.speedway .speedway-wrap .main-contents .mid3 div:nth-child(1) {
+    text-align: center;
+    margin: 50px 0;
+}
+
+section.speedway .speedway-wrap .main-contents .mid3 div:nth-child(1) p {
+    line-height: 146%;
+    margin-top: 12px;
+}
+
+section.speedway .speedway-wrap .main-contents .mid3 div:nth-child(2) h4 {
+    margin-bottom: 18px;
+    padding-left: 32px;
+}
+
+section.speedway .speedway-wrap .main-contents .mid3 div:nth-child(2) {
+    display: flex;
+}
+
+
+/* end mid3 */
+
+/* mid4 style */
+section.speedway .speedway-wrap .main-contents .mid4 {
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+
+section.speedway .speedway-wrap .main-contents .mid4 div:nth-child(1) {
+    text-align: center;
+    margin: 50px 0;
+}
+
+section.speedway .speedway-wrap .main-contents .mid4 div:nth-child(1) p {
+    line-height: 146%;
+    margin-top: 12px;
+}
+
+section.speedway .speedway-wrap .main-contents .mid4 div:nth-child(2) h4 {
+    margin-bottom: 18px;
+    padding-left: 32px;
+}
+
+/* end mid4 */
+
+/* end speedway */
+
+
+/* footer-top style */
+section.footer {
+    width: 100%;
+    height: 180px;
+    background: url(../img/footer_background.gif) repeat-x;
+}
+
+section.footer .footer-top {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+
+    padding-top: 1px;
+    height: 32px;
+}
+
+section.footer .footer-top dl dt {
+    padding-right: 0;
+    float: left;
+}
+
+section.footer .footer-top dl dd {
+    float: left;
+}
+
+section.footer .footer-top .botton {
+    float: right;
+    margin-top: 6px;
+
+    position: relative;
+}
+
+section.footer .footer-top .resort {
+    width: 137px;
+    position: absolute;
+    right: 20%;
+    bottom: 100%;
+}
+
+section.footer .footer-top .family {
+    width: 188px;
+    position: absolute;
+    right: 0%;
+    bottom: 95%;
+}
+
+section.footer .footer-top .tempbox {
+
+    float: right;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 8px;
+    line-height: 1.4;
+    background: white;
+    margin-bottom: -5px;
+}
+
+section.footer .footer-top .tempbox a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* end footer-top */
+
+/* footer-bottom style */
+
+section.footer .footer-bottom {
+    /* background:  #444b55; */
+    color: #8e8e8e;
+    width: 960px;
+    position: relative;
+    font-size: 12px;
+    box-sizing: border-box;
+    /* padding-left: 240px; */
+    margin: 0 auto;
+
+}
+
+section.footer .footer-bottom a {
+    text-decoration: none;
+    color: black;
+    color: #8e8e8e;
+}
+
+section.footer .footer-bottom .footer-menu {
+    padding-top: 24px;
+    /* background:  #444b55; */
+
+}
+
+section.footer .footer-bottom .footer-menu li .intro-ft {
+    padding-left: 0;
+}
+
+section.footer .footer-bottom .footer-menu li a {
+    text-decoration: none;
+    float: left;
+    padding: 0 10px;
+    font-size: 12px;
+    border-right: 1px solid rgba(196, 192, 192, 0.5);
+}
+
+/* section.footer .footer-bottom .footer-menu:nth-child(1) {
+    padding-left: 0;
+} */
+section.footer .footer-bottom address p {
+    line-height: 20px;
+}
+
+section.footer .footer-bottom address {
+    position: relative;
+}
+
+section.footer .footer-bottom a img {
+    background: white;
+    border-radius: 10px;
+    padding: 5px 5px;
+    position: absolute;
+    left: 775px;
+    top: 35px;
+}
+
+
+
+section.footer .footer-bottom address p strong a {
+    font-weight: 700;
+}
+
+section.footer .footer-bottom .footer-menu li .cast-ft {
+    /* border: 1px solid red; */
+    color: rgb(213, 206, 206);
+    font-weight: 500;
+}
+
+section.footer .footer-bottom .footer-menu li .site-ft {
+    color: rgb(213, 206, 206);
+    font-weight: 500;
+}
+
+section.footer .footer-bottom address p a span {
+    color: rgb(212, 200, 200);
+    font-weight: 600;
+}
+
+/* 태블릿 해상도 1024px 이하 (아이패드 프로) */
+@media screen and (max-width: 1024px) {
+    section.speedway {
+        width: 1024px;
+    }
+
+}
+
+/* 태블릿 해상도 768px 이하 (아이패드 미니) */
+@media screen and (max-width: 768px) {
+    header .supercon {
+        width: 1024px;
+    }
+
+    section.footer {
+        width: 1024px;
+    }
+}

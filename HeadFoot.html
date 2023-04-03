@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!--reset-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+     <link rel="stylesheet" href="./main.css">
+     <link rel="stylesheet" href="./HeadFoot.css">
+     <link rel="stylesheet" href="./common.css">
+</head>
+<body>
+    <header>
+        <div class="supercon">
+            <div class="top">
+                <!-- <div class="drop"><ul>
+                    <li>Englsih</li>
+                    <li>Englsih</li>
+                    <li>Englsih</li>
+                </ul></div> -->
+                <div class="left"></div>
+                <div class="topcon">
+                    <a href="" class="toplogo">
+                        <div class="topimg"><img src="./img/top_logo1.jpg" alt=""></div>
+                    </a><a href="" class="topunder">
+                        <div class="topfirst">에버랜드</div>
+                    </a><a href="">
+                        <div class="top2">캐래비안베이</div>
+                    </a><a href="">
+                        <div class="top3">홈브리지</div>
+                    </a><a href="">
+                        <div class="top4">스피드웨이</div>
+                    </a><a href="">
+                        <div class="top5"><img src="./img/bull_earth.gif" alt=""><span class="t5">汉语(简体)</span></div>
+                    </a><a href="" class="orange">
+                        <div>스마트예약</div>
+                    </a><a href="" class="blue">
+                        <div>학생단체예약</div>
+                    </a><a href="" class="purple">
+                        <div>기업단체예약</div>
+                    </a>
+                </div>
+                <div class="right"></div>
+            </div>
+            <div class="mid">
+                <div class="midcon">
+                    <div class="search">
+                        <div class ="searchcon">
+                            
+                                <input type="text">
+                                <button><img src="./img/search.png" alt=""></button>
+                            
+                        </div>
+                    </div>
+                    <div class="mainlogo"><img src="./img/Mainlogo.gif" alt=""></div>
+                    <div class="user">
+                        <ul>
+                            <li class ="user1"><a  href="" >로그인</a></li>
+                            <li><a href="">회원가입</a></li>
+                            <li><a href="">손님상담센터</a></li>
+                            <li><a href="">CAST 채용</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="bottomcon">
+                    <ul>
+                        <li><a href="">이용정보</a></li>
+                        <li><a href="">요금&프로모션</a></li>
+                        <li><a href="">즐길거리</a></li>
+                        <li><a href="">멤버십</a></li>
+                        <li><a href="">에버랜드 더 알아보기</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="hidden">
+                    <div class="hiddencon">
+                        <ul>
+                            <li>
+                                <div>뉴스공지</div>
+                                <div>이용방법</div>
+                                <div>운영시간</div>
+                                <div>운휴안내</div>
+                                <div>교통정보</div>
+                                <div>편의시설</div>
+                                <div>가이드맵</div>
+                                <div>모바일앱</div>
+                                
+                            </li>
+                            <li><div>이용요금</div>
+                                <div>이용방법</div>
+                                <div>제휴카드</div>
+                                <div>스페셜프로모션</div>
+                                <div>드림투어</div>
+                                <div>체험 프로그램</div>
+                            </li>
+                            <li>
+                                <div>추천 코스</div>
+                                <div>어트랙션</div>
+                                <div>엔터테이먼트</div>
+                                <div>주토피아(동물원)</div>
+                                <div>플랜토피아(정원)</div>
+                                <div>레스토랑</div>
+                                <div>선물샵| 온라인굿즈샵</div>
+                                <div>글램핑</div>
+                            </li>
+                            <li>
+                                <div>정기권</div>
+                                <div>동물사랑단</div>
+                                <div>식물사랑단</div>
+                                
+                            </li>
+                            <li>
+                                <div>Editor's Pick</div>
+                                <div>에버랜드 스토리</div>
+                                <div>에버랜드 테마뮤직</div>
+               
+                            </li>
+                        </ul>
+    
+                    </div>
+                </div>
+            </div>
+           
+
+           
+        </div>
+    </header>
+
+    <script>
+        const $menu = document.querySelector('.bottom .bottomcon ul');
+        const $hidden = document.querySelector('header .supercon .hidden');
+        $menu.addEventListener('mouseover', function() {
+            $hidden.classList.add('on');
+        });
+
+        $hidden.addEventListener('mouseout', function() {
+            $hidden.classList.remove('on');
+        });
+
+    </script>
+
+
+</body>
+</html>

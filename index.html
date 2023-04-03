@@ -6,106 +6,455 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <!-- 파비콘 넣기  파일은 있으니 넣기-->
-    <link rel="icon" href="./">
-    <!-- reset css -->
+    <!--reset-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
-    <!-- custom css -->
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./HeadFoot.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@100;400;900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Montserrat:wght@100;400;900&family=Noto+Sans+KR:wght@100&display=swap"
+        rel="stylesheet">
+        <!-- 파비콘 넣기 -->
+    <link rel="icon" href="./img/favicon.ico">
 
 </head>
 
 <body>
-    <!-- section.main-bay -->
-    <section class="main-bay">
-        <!-- <ul class="manu-bay">
-           <li><a href="#">이용정보</a></li>
-           <li><a href="#">즐길거리</a></li>
-           <li><a href="#">케리비안 베이 더 알아보기</a></li>
-        </ul> -->
-        <!-- 메인 이미지와 안내 텍스트 이미지 -->
-
-        <ul class="main-img-bay">
-            <li>
-                <a href="#" class="long-img-bay"><img src="./img/caribbeanbaymainimg.jpg" alt="케리비안 베이 이미지"></a>
-                <a href="#" class="text-img-bay"><img src="./img/caribbean bay main img.png" alt="안내문구"></a>
-                <a href="#" class="stop-bay"><img src="./img/btn-bay.png" alt=""></a>
-            </li>
-        </ul>
-    </section>
-
-    <!-- section.information-bay -->
-    <section class="inf-bay">
-        <h3 class="main-inf-bay">Information</h3>
-        <div class="now-bay"> 지금 바로 생생한 현장 소식</div>
-        <!-- first block -->
-        <div class="inner-bay">
-            <ul class="news-bay">
-                <h3>NEWS & NOTICE</h3> <br>
-                <div>새로운 소식들</div> <br>
-                <div class="fBox-bay">
-                    <li><a href="#">케리비안 베이 정기 휴장 안내</a></li>
-                    <li><a href="#">23년 시즌 캘린더 안내</a></li>
-                    <li><a href="#">위치 기반 서비스 종료 안내</a></li>
-                    <li><a href="#">[공지] 방수 마스크 안내</a></li>
-                    <li><a href="#">내 카드 제휴/할인 조회 서비스 오픈!</a></li>
-                </div>
-                <li><a href="#" class="water-bay"><img src="./img/caribbean bay water check.jpg" alt="수질확인"></a></li>
-            </ul>
-            <!-- sec block -->
-            <ul class="today-bay">
-                <h3>
-                    <strong>TODAY</strong>
-                    <p class="play-bay">오늘의 운영시간</p>
-                </h3>
-                <li class="fir-bay">03월 28일(화)</li>
-                <li class="sec-bay">오늘의 운휴 안내</li>
-                <li class="thi-bay">라꼬스타,폴바셋,하버 마스터 <br>
-                    하버 스낵</li>
-                <li><a href="#" class="use-bay">케리비안 이용방법 A to Z</a></li>
-            </ul>
-            <!-- thi block -->
-            <div class="allSmart-bay">
-                <ul class="smart-bay">
-                    <h3>
-                        <strong>스마트예약</strong>
-                        <p>방문 전에 미리 준비!</p>
-                        <img src="./img/everlan char.png" alt="쟤">
-                    </h3>
-
-                    <!-- <li class="char"><img src="./img/everlan char.png" alt="캐릭터"></li> -->
-                    <li class="one-bay"><a href="#"><img src="./img/t.png" alt="">
-                            <div class="text1">이용권</div>
-                        </a></li>
-                    <li class="two-bay"><a href="#"><img src="./img/bayco.png" alt="">
-                            <div class="text1">베이코인</div>
-                        </a></li>
-                    <li class="thr-bay"><a href="#"><img src="./img/park.png" alt="">
-                            <div class="text1">발레파킹</div>
-                        </a></li>
-                    <li class="fou-bay"><a href="#"><img src="./img/hoem.png" alt="">
-                            <div class="text1">빌리지</div>
-                        </a></li>
-                    <li class="fiv-bay"><a href="#"><img src="./img/chairrrr.png" alt="">
-                            <div class="text1">실내비치체어</div>
-                        </a></li>
-                </ul>
-                <div class="bus-bay">
-                    <a href="#">
-                        <p class="myHome-bay">"우리집에서 에버랜드까지</p>
-                        <p class="myCar-bay"><span>대중교통•자가용</span> 이용방법</p>
-                        <img src="./img/bbbuss.png" alt="bus">
+    <header>
+        <div class="supercon">
+            <div class="top">
+                <!-- <div class="drop"><ul>
+                    <li>Englsih</li>
+                    <li>Englsih</li>
+                    <li>Englsih</li>
+                </ul></div> -->
+                <div class="left"></div>
+                <div class="topcon">
+                    <a href="" class="toplogo">
+                        <div class="topimg"><img src="./img/top_logo1.jpg" alt=""></div>
+                    </a><a href="./" class="topunder">
+                        <div class="topfirst">에버랜드</div>
+                    </a><a href="./everland.caribbean/index.html">
+                        <div class="top2">캐리비안베이</div>
+                    </a><a href="">
+                        <div class="top3">홈브리지</div>
+                    </a><a href="./everland.speedway/index.html">
+                        <div class="top4">스피드웨이</div>
+                    </a><a href="">
+                        <div class="top5"><img src="./img/bull_earth.gif" alt=""><span class="t5">汉语(简体)</span></div>
+                    </a><a href="" class="orange">
+                        <div>스마트예약</div>
+                    </a><a href="" class="blue">
+                        <div>학생단체예약</div>
+                    </a><a href="" class="purple">
+                        <div>기업단체예약</div>
                     </a>
                 </div>
-
+                <div class="right"></div>
             </div>
-        </div>
+            <div class="mid">
+                <div class="midcon">
+                    <div class="search">
+                        <div class="searchcon">
 
+                            <input type="text">
+                            <button><img src="./img/search.png" alt=""></button>
+
+                        </div>
+                    </div>
+                    <div class="mainlogo"><img src="./img/Mainlogo.gif" alt=""></div>
+                    <div class="user">
+                        <ul>
+                            <li class="user1"><a href="">로그인</a></li>
+                            <li><a href="">회원가입</a></li>
+                            <li><a href="">손님상담센터</a></li>
+                            <li><a href="">CAST 채용</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="bottomcon">
+                    <ul>
+                        <li><a href="">이용정보</a></li>
+                        <li><a href="">요금&프로모션</a></li>
+                        <li><a href="">즐길거리</a></li>
+                        <li><a href="">멤버십</a></li>
+                        <li><a href="">에버랜드 더 알아보기</a></li>
+                        <img id ="flower" src="./img/flower.png" alt="">
+                    </ul>
+
+                </div>
+                <div class="hidden">
+                    <div class="hiddencon">
+                        <ul>
+                            <li class="hf">
+                                <div>뉴스공지</div>
+                                <div>이용방법</div>
+                                <div>운영시간</div>
+                                <div>운휴안내</div>
+                                <div>교통정보</div>
+                                <div>편의시설</div>
+                                <div>가이드맵</div>
+                                <div>모바일앱</div>
+
+                            </li>
+                            <li>
+                                <div>이용요금</div>
+                                <div>이용방법</div>
+                                <div>제휴카드</div>
+                                <div>스페셜프로모션</div>
+                                <div>드림투어</div>
+                                <div>체험 프로그램</div>
+                            </li>
+                            <li>
+                                <div>추천 코스</div>
+                                <div>어트랙션</div>
+                                <div>엔터테이먼트</div>
+                                <div>주토피아(동물원)</div>
+                                <div>플랜토피아(정원)</div>
+                                <div>레스토랑</div>
+                                <div>선물샵 | 온라인굿즈샵</div>
+                                <div>글램핑</div>
+                            </li>
+                            <li>
+                                <div>정기권</div>
+                                <div>동물사랑단</div>
+                                <div>식물사랑단</div>
+
+                            </li>
+                            <li>
+                                <div>Editor's Pick</div>
+                                <div>에버랜드 스토리</div>
+                                <div>에버랜드 테마뮤직</div>
+
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </header>
+
+    <script>
+        const $menu = document.querySelector('.bottom .bottomcon ul');
+        const $hidden = document.querySelector('header .supercon .hidden');
+        $menu.addEventListener('mouseover', function () {
+            $hidden.classList.add('on');
+        });
+
+        $hidden.addEventListener('mouseout', function () {
+            $hidden.classList.remove('on');
+        });
+    </script>
+    <!--section MainEvent-->
+    <section class="me">
+        <div class="me1">
+            <img class="met" src="./img/me1logo.png" alt="">
+            <ul>
+                <li>
+                    <img src=".//img/me1back_.jpg" alt="">
+                </li>
+            </ul>
+        </div>
     </section>
 
 
 
+
+    <div class="scroll">
+
+        <!--section side-->
+        <div class="sidecon">
+            <a href="">
+                <p class='txt'>What's <br> New<br>신규 즐길거리</p>
+            </a>
+            <a href="">
+                <p class="txt">Promotion <br>오늘의 할인</p>
+            </a>
+            <a href="">
+                <p class="txt">에버랜드 <br>정보 꿀팁</p>
+            </a>
+            <a href="">
+                <p class="txt">Information <br>운영정보</p>
+            </a>
+            <a href="">
+                <p class="txt">Editor's Clip <br>추천꿀팁</p>
+            </a>
+        </div>
+
+        <!--section New-->
+        <div class="wrap">
+            <section class="new">
+
+                <div class="newcon ">
+                    <div class="a">
+                        <div class="line">
+                            <hr>
+                        </div>
+                        <div class="nt title1">
+                            <h1>What's new</h1>
+                            <h2 class="title2">꿈과 환상의 나라로 어서오세요!</h2>
+                        </div>
+                        <div class="line">
+                            <hr>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./img/new1.jpg" alt="뉴1">
+                                <div class="newtext">페어리타운 요정이 되어<p class='medium'>퍼레이드 주인공까지!</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/new2.jpg" alt="">
+                                <div class="newtext">2023 봄 인증샷은<p class='medium'>하늘정원길에서</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/new3.jpg" alt="">
+                                <div class="newtext">스마트예약 한정<p class='medium'>4월에버데이</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/new4.jpg" alt="">
+                                <div class="newtext">페어리타운 챌린지 참여하고<p class='medium'>초대권과 츄러스 받기</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!--section promotion-->
+            <section class="pro">
+                <div class="procon">
+                    <div class="pt title1">
+                        <h1>Ticket Promotion</h1>
+                        <h2 class="title2">나에게 꼭 맞춘 알찬 할인 정보</h2>
+                    </div>
+                    <ul>
+                        <div class="pbox">
+                            <a href="#">
+                                <li>
+                                    <p class="small">할인정보</p>
+                                    <img src="./img/pro1.png" alt="프1">
+                                    <p class="middle">스마트예약</p>
+                                    <p class="last">본인55%</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <p class="small">할인정보</p>
+                                    <img src="./img/pro2.png" alt="프2">
+                                    <p class="middle">KB국민카드</p>
+                                    <p class="last">3월 1+1, 4월45%우대</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <p class="small">할인정보</p>
+                                    <img src="./img/pro3.png" alt="프3">
+                                    <p class="middle">아시아나 마일리지</p>
+                                    <p class="last">추가할인</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li>
+                                    <p class="small">할인정보</p>
+                                    <img src="./img/pro4.png" alt="프4">
+                                    <p class="middle">키즈PKG 2인권</p>
+                                    <p class="last">53,000원~</p>
+                                </li>
+                            </a>
+                            <a href="#" class="last1">
+                                <li class="last2">
+                                    <p class="small">할인정보</p>
+                                    <img src="./img/pro5.png" alt="프5">
+                                    <p class="middle">홈페이지 신규가입 우대</p>
+                                    <p class="last">29,000원~</p>
+                                </li>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+                <div class="btncon">
+                    <div class="btn">
+                        <strong>스페셜 프로모션</strong> 자세히 보기
+                        <img src="./img/arrow1.png" alt="" class="">
+                    </div>
+                </div>
+            </section>
+            <!--section service-->
+            <section class="ser">
+                <div class="sercon">
+                    <div class="d">
+                        <div class="line">
+                            <br>
+                            <hr>
+                        </div>
+                        <div class="st">
+                            <img src="./img/servicetitle.jpg" alt="">
+                        </div>
+                        <div class="line">
+                            <br>
+                            <hr>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><img src="./img/ser1.jpg" alt="뉴1">
+                            <div class="sertext">더쎈카드<p class='medium'>제휴/할인조회 서비스</p>
+                            </div>
+                        </li>
+                        <li><img src="./img/ser2.jpg" alt="">
+                            <div class="sertext">편하고 여유있게<p class='medium'>모바일 오더</p>
+                            </div>
+                        </li>
+                        <li><img src="./img/ser3.jpg" alt="">
+                            <div class="sertext">간편하고 편리하게<p class='medium'>모바일 기프트카드</p>
+                            </div>
+                        </li>
+                        <li><img src="./img/ser4.jpg" alt="">
+                            <div class="sertext">유모차,웨건,신형 유모차<p class='medium'>스마트예약 오픈</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!--section information-->
+            <section class="info">
+                <div class="infocon">
+                    <div class="it title1">
+                        <h1>Information</h1>
+                        <h2 class="title2">지금 바로 생생한 현장 소식</h2>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="inews title1">
+                                <h1>NEWS & NOTICE</h1>
+                                <h2 class="inews title2">새로운 소식들</h2>
+                            </div>
+                            <div class="detail title2">
+                                <a href="#">23년 시즌 캘린더 안내</a>
+                                <a href="#">[공지] 어트랙션 정기 안전 점검 계획(3~4월)</a>
+                                <a href="#">[공지] 코로나 바이러스 감염증-19 관련 안내</a>
+                                <a href="#">외국인 손님을 위한 영문 APP 이용 안내</a>
+                                <a href="#">[공지] 스마트줄서기 운영 안내</a>
+                                <a href="#">[공지] 입장 후 스마트 줄서기 신청 안내</a>
+                                <a href="#">스마트줄서기 초보를 위한 이용가이드</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="inews title1">
+                                <h1>Today</h1>
+                                <h2 class="inews title2">오늘의 운영시간</h2>
+                            </div>
+                            <div class="detail2">
+                                <div class="daytime ">
+                                    <div class="day">03월 28일(화)</div>
+                                    <div class="time title1">10:00 - 21:00</div>
+                                </div>
+                                <div class="timeline title2">
+                                    <div>16:00 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 씨라이언 빌리지 애니멀톡</div>
+                                    <div>16:50 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 왈츠 인 로열팰리스</div>
+                                    <div>17:00 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 레니의 대모험~</div>
+                                    <div>17:30 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 라라의 몬스터 클린업</div>
+                                    <div>18:10 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 페어리 포토타임</div>
+                                    <div>19:30 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 문라이트 퍼레이드</div>
+                                    <div id="gg">20:30 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 타임 오디세이</div>
+                                </div>
+                                <div class="infobtn">
+                                    <div class="conc">
+                                        공연시간더보기
+                                    </div>
+                                    <div class="att">
+                                        어트랙션 운휴안내
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="reserv">
+                                <h1>스마트예약</h1>
+                                <h2 class="reserve2 title2">방문 전에 미리 준비!</h2>
+                            </div>
+                            <div class="tick title2">
+                                <div class="info1"><img src="./img/info1.png" alt="">이용권</div>
+                                <div class="info2"><img src="./img/info2.png" alt="">정기권</div>
+                                <div class="info3"><img src="./img/info3.png" alt="">레스토랑<br>테라스</div>
+                                <div class="info4"><img src="./img/info4.png" alt="">체험<br>프로그램</div>
+                                <div class="info5"><img src="./img/info5.png" alt="">발레파킹</div>
+                                <div class="info6"><img src="./img/info6.png" alt="">스페셜<br>패키지</div>
+                            </div>
+                            <div class="how">
+                                <img src="./img/infobus.png" alt="">
+                                <div class="howinfo title2">
+                                    "우리집에서 에버랜드까지" <br><em> <strong>대중교통 자가용</strong> 이용방법</em>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!--section editor-->
+            <section class="edit">
+                <div class="editcon">
+                    <div class="et title1">
+                        <div class="b">
+                            <div class="line">
+                                <hr>
+                            </div>
+                            <div class="c">
+                                <h1>Editor's Clip</h1>
+                                <h2 class="title2">매일매일이 즐거워~ 에버랜드 이야기</h2>
+                            </div>
+                            <div class="line">
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="editimg title2">
+                        <a href="#"><img src="./img/edit1.jpg" alt="">
+                            <div class="edittext">에버랜드의 NEW봄<p class='medium title2'>페어리타운</p>
+                            </div>
+                        </a>
+                        <a href="#"><img src="./img/edit2.jpg" alt="">
+                            <div class="edittext">저세상 토론회<p class='medium title2'>티익스 VS 아마존편</p>
+                            </div>
+                        </a>
+                        <a href="#"><img src="./img/edit3.jpg" alt="">
+                            <div class="edittext">행복의 요정 낚으러<p class='medium title2'>페어리타운으로!</p>
+                            </div>
+                        </a>
+                        <a href="#"><img src="./img/edit4.jpg" alt="">
+                            <div class="edittext">바오커플은<p class='medium title2'>어떻게 달라졌을까?</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="btnedit">
+                        <strong>더 많은 꿀팁</strong> 보러가기
+                        <img src="./img/arrow1.png" alt="" class="">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
     <!-- footer -->
     <footer>
 
@@ -138,16 +487,30 @@
                 </div>
 
                 <div class="tempbox resort">
-                    <a href="#"><p>교통박물관</p></a>
-                    <a href="#"><p>호암미술관</p></a>
-                    <a href="#"><p>글렌로스 골프클럽</p></a>
+                    <a href="#">
+                        <p>교통박물관</p>
+                    </a>
+                    <a href="#">
+                        <p>호암미술관</p>
+                    </a>
+                    <a href="#">
+                        <p>글렌로스 골프클럽</p>
+                    </a>
                 </div>
 
                 <div class="tempbox family">
-                    <a href="#"><p>삼성물산 리조트부문</p></a>
-                    <a href="#"><p>골프삼성</p></a>
-                    <a href="#"><p>삼성화재안내견학교</p></a>
-                    <a href="#"><p>서비스아카데미</p></a>
+                    <a href="#">
+                        <p>삼성물산 리조트부문</p>
+                    </a>
+                    <a href="#">
+                        <p>골프삼성</p>
+                    </a>
+                    <a href="#">
+                        <p>삼성화재안내견학교</p>
+                    </a>
+                    <a href="#">
+                        <p>서비스아카데미</p>
+                    </a>
                 </div>
 
             </div>
@@ -194,6 +557,8 @@
 
     </footer>
     <!-- end footer -->
+
+
 
 </body>
 

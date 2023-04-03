@@ -1,0 +1,311 @@
+header .supercon {
+    width: 100%;
+    height: 149px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*head top*/
+
+header .supercon .top{
+    width: 100%;
+    background: #F6F6F6;
+    display:flex;
+    justify-content: center;
+    
+
+}
+header .supercon .top .left{
+    width: 32%;
+    border-bottom: 1px solid #b7b7b7;
+}
+header .supercon .top .right{
+    width: 32%;
+    border-bottom: 1px solid #b7b7b7;
+}
+header .supercon .topcon {
+    width: 960px;
+    background: #F6F6F6;
+    margin: 0 auto 0;
+    
+    display: flex;
+    
+}
+header .supercon .top .topcon .toplogo {
+  box-sizing: border-box;
+  
+    
+}
+/* header .supercon .top .topcon a {
+    border-bottom: 1px solid #b7b7b7;
+} */
+
+header .supercon .top .topcon a .topfirst {
+    border-bottom: 1px solid #b7b7b7;
+    
+}
+header .supercon .top .topcon a .top2{
+    border-bottom: 1px solid #b7b7b7;
+}
+header .supercon .top .topcon a .top3{
+    border-bottom: 1px solid #b7b7b7;
+}
+header .supercon .top .topcon a .top4{
+    border-bottom: none;
+    background: white;
+    
+}
+header .supercon .top .topcon a .top5{
+    border-bottom: 1px solid #b7b7b7;
+    position: relative;
+}
+
+
+header .supercon .top .topcon a .top5 img{
+    margin-right: 5px;
+    /* margin-top: 13px; */
+    
+}
+
+header .supercon .top .drop{
+    position: absolute;
+    top:3%;
+    left:57%;
+    
+    width: 150px;
+    height: 150px;
+    /* background-color: red; */
+    z-index: 999;
+}
+
+
+
+header .supercon .top .topcon a .top2:hover{
+    background: white;
+       
+}
+header .supercon .top .topcon a .top3:hover{
+    background: white;
+       
+}
+header .supercon .top .topcon a .top4:hover{
+    background: white;
+       
+}
+
+
+header .supercon .topcon a div{
+    width: 100px;
+    height: 39px;
+    text-align: center;
+    
+    border-left: 1px solid #b7b7b7;
+    font-size: 14px;
+    line-height: 39px;
+    font-weight: 700;   
+
+}
+
+header .supercon .topcon .toplogo .topimg{
+    width: 150px;
+    
+    border-left: 0px;
+    border-bottom: 1px solid #b7b7b7;
+    
+    
+}
+header .supercon .topcon .toplogo div img{
+    border: 0px;
+}
+
+header .supercon .topcon .orange{
+    background: #FF7F02;
+    color: white;
+}
+header .supercon .topcon .blue{
+    background: #2DBDCA;
+    color: white;
+}
+header .supercon .topcon .purple{
+    background: #892FD5;
+    color: white;
+}
+
+
+/*head mid*/
+
+header .supercon .mid{
+    width: 100%;
+    background: white;
+    border-bottom: 2px solid #FF7F02;
+}
+
+header .supercon .midcon {
+    width: 960px;
+    height: 65px;
+    background: white;
+    margin: 0 auto 0;    
+    display: flex;
+}
+header .supercon .mid .midcon .search{
+
+    width: 33%;
+
+}
+button{
+    background: inherit ; border:none; box-shadow:none; border-radius:0; padding:0; overflow:visible; cursor:pointer
+}
+
+header .supercon .mid .midcon .search .searchcon{
+    border: 0px;
+    display: flex;
+    width: 241px;
+    height: 32px;
+    margin-top: 15px;
+    
+    border:1px solid #b7b7b7;
+}
+
+header .supercon .mid .midcon .search .searchcon img{
+    margin-left: 30px;
+
+}
+header .supercon .mid .midcon .search .searchcon input{
+    
+    border: 0;
+    outline: none;
+    border-radius: 0;
+}
+header .supercon .mid .midcon .mainlogo{
+
+    width: 33%;
+    
+    text-align: center;
+    line-height: 96px;
+    
+}
+header .supercon .mid .midcon .user{
+
+    width: 33%;
+
+}
+header .supercon .mid .midcon .user ul{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 0px;
+    width: 100%;
+    justify-content: flex-end;
+    
+    
+}
+header .supercon .mid .midcon .user ul li{
+    
+}
+header .supercon .mid .midcon .user ul li a{
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+    border-left: 1px solid #8e8e8e;
+    text-align: right;
+    color: #8e8e8e;
+
+}
+header .supercon .mid .midcon .user ul .user1 a{
+    border: 0px;
+}
+
+
+/*head bottom*/
+header .supercon .bottom{
+    width: 100%;
+    border-bottom: 1px solid #b7b7b7;
+    /* background: red; */
+}
+
+header .supercon .bottom .bottomcon{
+    width: 960px;
+    
+    background: white;
+    margin: 0 auto;
+   
+    position: relative;
+}
+header .supercon .bottom .bottomcon ul{
+    display: flex;
+}
+header .supercon .bottom .bottomcon ul li{
+    width: 192px;
+    height: 43px;
+    /* background-color: skyblue; */
+    text-align: center;
+    line-height: 43px;
+    font-size: 16px;
+    letter-spacing: -1px;
+    
+    
+}
+header .supercon .bottom .bottomcon ul li:hover{
+    background: #FF7F02;
+    color: white;
+}
+
+
+
+header .supercon .bottom .bottomcon ul li:nth-child(4) {
+    background: #FF7F02;
+}
+
+header .supercon .hidden{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 300px;
+    background: white;
+    display: none;
+}
+
+header .supercon .hidden.on {
+    border: 1px solid #cacaca;
+    display: block;
+}
+
+header .supercon .test{
+    width: 100%;
+    height: 100000px;
+    background: #838383;
+    font-size: 100px;
+}
+
+header .supercon .bottom .hidden .hiddencon {
+    margin: 0 auto;
+    width: 960px;
+    height: 300px;
+    background: white;
+    /* border: 1px solid #cacaca; */
+}
+header .supercon .bottom .hidden .hiddencon ul{
+    display: flex;
+}
+
+header .supercon .bottom .hidden .hiddencon ul li{
+    width : 192px;
+    height: 310px;    
+   
+    padding: 20px 30px ;
+    border-right: 1px solid #cacaca;
+    z-index: 999;
+    
+}
+header .supercon .bottom .hidden .hiddencon ul li div{
+    margin-bottom: 12px;
+    font-size: 15px;
+    letter-spacing: -1px;
+}
+header .supercon .bottom .bottomcon ul li:nth-child(4) a {
+    color: white;
+}

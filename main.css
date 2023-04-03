@@ -1,0 +1,845 @@
+/*Common*/
+.title1 {
+    font-size: 38px;
+    font-weight: 900;
+    font-family: Montserrat, sans-serif;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.title2 {
+    color: #272830;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: -1px;
+
+}
+
+
+/*Main Event*/
+
+section.me .me1 {
+
+
+    width: 100%;
+    height: 570px;
+    display: flex;
+    position: relative;
+}
+section.me .me1 .met{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+section.me ul li img {
+    
+    width: 100%;
+    height: 570px;
+    position: absolute;
+    top:0%;
+    left: 0%;
+    z-index: -1;
+    
+}
+
+/*new*/
+section.new {
+    width: 100%;
+    height: 407px;
+    margin: 80px 0px 40px;
+    
+
+}
+
+section.new .newcon {
+    width: 1000px;
+    margin: 0px auto 10px;
+}
+
+section.new .newcon .line {
+    width: 33%;
+    display: block;
+
+}
+
+section.new .newcon .a {
+    width: 100%;
+    display: flex;
+
+}
+
+section.new .newcon .nt {
+    background: white;
+    width: 33%;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+section.new .newcon .line hr {
+
+    width: 100%;
+    margin-top: 30px;
+    background-color: #e1e1e1;
+    height: 0.01px;
+    text-decoration: line-through;
+}
+
+
+section.new .newcon .nt h1 {
+    margin-bottom: 10px;
+    /* font-family: 'Montserrat', sans-serif; */
+    
+
+}
+
+section.new ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.new ul li .newtext {
+    box-sizing: border-box;
+    font-size: 14px;
+    letter-spacing: -1px;
+    width: 235px;
+    height: 86px;
+    margin: 0 10 20;
+    font-weight: 500;
+
+    text-align: center;
+    padding: 20px 0px;
+}
+
+section.new ul li .medium {
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+section.new .newcon ul li{
+    overflow: hidden;
+}
+
+section.new .newcon ul li img{
+    transition: all 0.1s linear;
+    
+}
+
+section.new .newcon ul li img:hover{
+    transform: scale(1.03);
+    
+}
+
+
+/*promotion*/
+section.pro {
+    width: 100%;
+    height: 500px;
+    background: #f7f7f7;
+    padding: 60px 0px;
+}
+
+section.pro .procon {
+    width: 1000px;
+    margin: 0px auto 10px;
+
+}
+
+section.pro .procon .pt {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+section.pro .procon .pt h1 {
+    margin-bottom: 10px;
+}
+
+section.pro .procon ul .pbox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #c5c5c5;
+    position: relative;
+
+}
+
+
+
+section.pro .procon ul a {
+    text-decoration: none;
+    color: black;
+}
+
+section.pro .procon ul a {
+    box-sizing: border-box;
+    background: white;
+    padding: 15px 0px 0px;
+    width: 199.594px;
+    height: 213px;
+
+
+    text-align: center;
+
+}
+
+section.pro .procon ul a li {
+    height: 180px;
+    border-right: 1px solid #e1e1e1;
+}
+
+section.pro .procon ul .last1 .last2 {
+    height: 180px;
+    border-right: none;
+}
+
+section.pro .procon ul a li .small {
+    color: #3b3b3b;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Noto Sans KR", Montserrat, "Malgun Gothic", Dotum, sans-serif;
+    letter-spacing: -1px;
+    margin-bottom: 15px;
+}
+
+section.pro .procon ul a img {
+    width: 62px;
+    height: 62px;
+    margin-bottom: 13px;
+}
+
+section.pro .procon ul a li .middle {
+    margin: 0 0 5px;
+    color: #272830;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.4;
+    letter-spacing: -1px;
+
+}
+
+section.pro .procon ul a li .last {
+    color: #ff4c2b;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Noto Sans KR", Montserrat, "Malgun Gothic", Dotum, sans-serif;
+    letter-spacing: -1px;
+
+}
+
+section.pro .btncon .btn {
+    width: 250px;
+    height: 40px;
+    margin: 30px auto;
+    border: 1px solid orange;
+    background: white;
+    border-radius: 50px;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 40px;
+    font-size: 15px;
+    
+    
+
+}
+
+section.pro .btncon .btn strong {
+    font-weight: bold;
+  
+}
+
+
+/*service*/
+
+section.ser {
+    width: 100%;
+    height: 450px;
+    background: rgb(255, 236, 239);
+
+}
+
+section.ser .sercon {
+    width: 1000px;
+    margin: 0px auto 10px;
+    padding: 60px 0px;
+}
+
+section.ser .sercon .d {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.ser .sercon .d .line {
+
+    width: 28%;
+
+
+}
+
+section.ser .sercon .st {
+
+    margin-bottom: 34%px;
+    text-align: center;
+
+}
+
+section.ser ul {
+    display: flex;
+    justify-content: space-between;
+}
+section.ser .sercon ul li{
+    overflow: hidden;
+} 
+
+section.ser .sercon ul li img{
+    transition: all 0.1s linear;
+}
+section.ser .sercon ul li img:hover{
+    transform: scale(1.03);
+}
+
+section.ser ul li .sertext {
+    box-sizing: border-box;
+    font-size: 15px;
+    width: 235px;
+    height: 86px;
+    margin: 0 10 20;
+
+    text-align: center;
+    padding: 20px 0px;
+}
+
+section.ser ul li .medium {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+
+
+/*information*/
+
+section.info {
+    width: 100%;
+    height: 727px;
+    background: #f7f7f7;
+    padding: 60px 0px;
+}
+
+section.info .infocon {
+    width: 1000px;
+    margin: 0px auto 10px;
+
+}
+
+section.info .infocon .it {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+section.info .infocon .it h1 {
+
+    margin-bottom: 10px;
+}
+
+section.info .infocon ul {
+    display: flex;
+}
+
+
+section.info .infocon ul li {
+    box-sizing: border-box;
+    margin-right: 9px;
+    padding: 30px 15px 25px;
+    width: 325px;
+    height: 500px;
+    border: solid #e6e6e6;
+    border-width: 0 1px 2px;
+    border-top: 2px solid #ff6941;
+    background-color: #fff;
+}
+
+section.info .infocon ul li .inews {
+    margin-bottom: 40px;
+
+
+}
+
+section.info .infocon ul li h1 {
+    width: 283px;
+    text-align: center;
+    margin: 0 0 5px;
+    color: #272830;
+    font-size: 28px;
+    font-weight: 800;
+    font-family: Montserrat, sans-serif;
+    line-height: 1;
+}
+
+section.info .infocon ul li h2 {
+    text-align: center;
+    color: #272830;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 1px 0;
+    letter-spacing: -1px;
+
+}
+
+section.info .infocon ul li .detail a {
+    display: block;
+    text-decoration: none;
+    margin: 0px;
+    color: black;
+    text-align: left;
+    padding: 16px 10px;
+    font-size: 14px;
+    letter-spacing: -1px;
+    border-bottom: 0.5px solid #e6e6e6;
+    text-indent: 5px;
+
+}
+
+section.info .infocon ul li .detail {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+section.info .infocon ul li .detail2 {
+    width: 292.33px;    
+    height: 329px;
+    border-top: 1px solid #e6e6e6;
+
+}
+
+section.info .infocon ul li .detail2 .daytime {
+    width: 283px;
+    height: 79px;
+
+    padding-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+
+
+}
+
+section.info .infocon ul li .detail2 .daytime .day {
+    height: 29px;
+   
+    font-size: 20px;
+    letter-spacing: -1px;
+    line-height: 29px;
+    
+    font-weight: 900;
+
+
+
+}
+
+section.info .infocon ul li .detail2 .daytime .time {
+    height: 50px;
+    color: #ff4c2b;
+    font-size: 41px;
+    letter-spacing: -1px;
+    font-weight: 800;
+    line-height: 50px;
+
+
+}
+
+section.info .infocon ul li .detail2 .timeline {
+    width: 283px;
+    height: 160px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    overflow: auto;
+    position: relative;
+    margin-top: 50px;
+
+}
+
+section.info .infocon ul li .detail2 .timeline div {
+    margin-bottom: 40px;
+    font-size: 15px;
+    margin-bottom: 18px;
+    position: relative;
+    letter-spacing: -1px;
+
+}
+
+section.info .infocon ul li .detail2 .timeline div::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border: 1px solid #929292;
+    border-radius: 50%;
+    color: #929292;
+    background-color: #929292;
+
+    position: absolute;
+    top: 22%;
+    left: 18%;
+}
+
+
+section.info .infocon ul li .detail2 .timeline div::after {
+    content: '';
+
+    height: 13px;
+    border: 0.5px solid #c5c5c5;
+    border-radius: 50%;
+    color: #929292;
+
+    position: absolute;
+    top: 100%;
+    left: 19.6%;
+}
+
+section.info .infocon ul li .detail2 .timeline #gg::after{
+    content:'';
+    display: none;
+    
+}
+
+
+
+
+
+section.info .infocon ul li .detail2 .infobtn {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+
+
+}
+
+section.info .infocon ul li .detail2 .infobtn .conc {
+    width: 135px;
+    height: 38px;
+    border: 1px solid #ff4c2b;
+    color: #ff4c2b;
+    font-weight: bold;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 38px;
+    font-size: 15px;
+    letter-spacing: -1px;
+    font-size: 15px;
+
+}
+
+section.info .infocon ul li .detail2 .infobtn .att {
+    width: 135px;
+    height: 38px;
+    border: 1px solid purple;
+    color: purple;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 38px;
+    font-size: 15px;
+    letter-spacing: -1px;
+    font-weight: bold;
+
+}
+
+section.info .infocon ul li:nth-child(3) {
+    padding: 0;
+    height: 50px;
+}
+
+section.info .infocon ul li .reserv {
+    width: 100%;
+    height: 129px;
+    background: #ff4c2b;
+
+
+}
+
+section.info .infocon ul li .reserv h1 {
+    display: block;
+    box-sizing: border-box;
+    letter-spacing: -1px;
+    margin: auto;
+    color: white;
+    padding-top: 35px;
+
+}
+
+section.info .infocon ul li .reserv h2 {
+    color: white;
+    margin: 0px;
+    letter-spacing: -1px;
+}
+
+section.info .infocon ul li .tick {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+section.info .infocon ul li .tick div {
+    display: flex;
+    box-sizing: border-box;
+    width: 50%;
+    height: 81px;
+    background: white;
+    padding-left: 20px;
+    line-height: 81px;
+    border-bottom: 0.1px solid #e6e6e6;
+    border-right: 0.05px solid #e6e6e6;
+    font-size: 15px;
+
+
+}
+
+section.info .infocon ul li .tick div img {
+    width: 50px;
+    height: 30px;
+    margin: auto 0px;
+    margin-right: 10px;
+}
+
+section.info .infocon ul li .how {
+    box-sizing: border-box;
+    width: 100%;
+    height: 112px;
+    margin-top: 10px;
+    background: white;
+    padding: 0 18px;
+    border: 1px solid #e6e6e6;
+    display: flex;
+    position: relative;
+
+}
+
+section.info .infocon ul li .how img {
+    width: 70px;
+    height: 70px;
+    margin: 18PX 0px;
+    margin-right: 0px;
+}
+
+section.info .infocon ul li .how .howinfo {
+    position: absolute;
+    text-align: center;
+    top: 33%;
+    left: 30%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+section.info .infocon ul li .how .howinfo em {
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+section.info .infocon ul li .how .howinfo em strong {
+    color: purple;
+}
+
+
+/*editor*/
+
+section.edit {
+    width: 100%;
+    height: 517px;
+    padding: 60px 0;
+
+}
+
+section.edit .editcon {
+    width: 1000px;
+    margin: 0px auto 10px;
+}
+
+section.edit .editcon .et {
+    width: 100%;
+    background: white;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+section.edit .editcon .b {
+    display: flex;
+}
+
+section.edit .editcon .line {
+    width: 33%;
+}
+
+section.edit .editcon .c {
+    width: 34%;
+}
+
+section.edit .editcon .et h1 {
+    margin-bottom: 10px;
+
+}
+
+section.edit .editcon .editimg {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.edit .editcon .editimg a {
+    display: block;
+    width: 215px;
+    height: 301px;
+    
+
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: -1px;
+    font-size: 15px;
+}
+
+
+
+section.edit .editcon .editimg a img {
+    border-radius: 50%;
+    
+    transition: all 0.1s linear;
+}
+section.edit .editcon .editimg a img:hover {
+    transform: scale(1.02);
+}
+
+section.edit .editcon .editimg .medium {
+    line-height: 0.5;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+section.edit .editcon .btnedit {
+    width: 220px;
+    height: 50px;
+    margin: 30px auto;
+    border: 1px solid black;
+    background: white;
+    border-radius: 50px;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 50px;
+    font-size: 15px;
+
+}
+section.edit .editcon .btnedit strong {
+    font-weight: bold;
+  
+}
+
+
+/*side*/
+.sidecon a{
+    display :block;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    text-decoration: none;
+    background: #DFDFDF7A;
+    color: #7b7b7b;
+    text-align: center;
+    font-size: 13px;
+    margin: 10px; 
+    display: flex;
+    position: relative;
+   
+
+}
+
+
+.sidecon .txt{
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.scroll {
+    width: 100%;
+    position: relative;
+    height: 2800px;   
+   
+}
+
+
+ .sidecon{  
+    position: sticky;
+    top: 0;
+    padding-top: 100px;
+    padding-left: 75%;
+
+    
+    z-index: 999;
+    
+}
+
+
+.scroll .wrap{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media(max-width:2030px){
+
+    .sidecon{  
+        padding-left: 80%;
+          
+    }
+}
+@media(max-width:1700px){
+
+    .sidecon{  
+        padding-left: 85%;
+          
+    }
+}
+@media(max-width:1500px){
+    .sidecon{  
+        padding-left: 1250px;
+          
+    }
+    
+}
+
+
+@media(max-width:1500px){
+    section.me .me1 {
+        height: 400px;
+    }
+    section.me ul li img {
+        width: 1500px;
+        height: 400px;
+    }
+    section.me .me1 .met{
+        width: 700px;
+        
+    
+    }
+}
+
+
+/*  지혁's 반응형   */
+/* 태블릿 해상도 1024px 이하 (아이패드 프로) */
+@media screen and (max-width: 1024px) {
+    body {
+        width: 1500px;
+    }
+}
+
+
+
+
